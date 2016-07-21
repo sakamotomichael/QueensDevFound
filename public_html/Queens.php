@@ -45,7 +45,7 @@ Developer's Foundation
 <h1 id = "title2">About</h1>
 
 <div style = "float:left; width:50%;">
-<img src="Granthall.jpg" height = "50%" width = "80%" style = "border:2px solid black; border-radius: 5px;">
+<img src="Granthall.JPG" height = "50%" width = "80%" style = "border:2px solid black; border-radius: 5px;">
 </div>
 
 <div style = "float:left; width:50%;">
