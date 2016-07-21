@@ -6,7 +6,7 @@
 
 <link rel="stylesheet" type="text/css" href="QueensCSS.css" />
 
-<script src = "jquery-3.0.0.min.js"></script>
+<script src = "jquery-3.1.0.js"></script>
 
 <link rel = "icon" type = "image/ico" href = "DFFavicon.ico">
 </head>
