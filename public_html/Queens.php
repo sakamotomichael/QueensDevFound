@@ -8,8 +8,10 @@
 <title>Developers' Foundation - Queen's Chapter</title>
 
 <link rel = "stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="CaptionHoverEffects/component.css" />
 
 <script src="jquery-3.0.0.min.js"></script>
+<script src="CaptionHoverEffects/modernizr.custom.js"></script>
 
 <link rel="icon" type="image/ico" href="DFFavicon.ico">
 
@@ -44,10 +46,24 @@
 	text-align: center;
 	font-family: "JosefinSans Regular";
 	position:absolute;
-	padding-top:20%;
-	padding-bottom:20%;
+	margin-top:45vh;
 	left:0;
 	right:0;
+}
+
+.fade-background{
+-moz-transition: all .2s ease-in;
+-o-transition: all .2s ease-in;
+-webkit-transition: all .2s ease-in;
+transition: all .2s ease-in;
+}
+
+
+
+.fade-background:hover{
+background-color: #B7EDFF;
+color:white;
+border-radius:25px;
 }
 
 </style>
@@ -57,51 +73,45 @@
 <body>
 <div class="container-fluid">
 
-<!--
-	<div class = "row">
-    <div class = "col-lg-10 col-md-offset-1">
-    <div class = "row">
-    <div class = "col-lg-6" style = "font-size:200%;font-family:'JosefinSans Regular'; padding-top:20px;padding-bottom:20px;">
-    Developer's Foundation - Queen's Chapter
-    </div>
-    <div class = "col-lg-6" style = "padding-bottom:10px;">
-    <button class = "button" id = "button1">About</button>
-	<button class = "button" id = "button2">Our Services</button>
-    <button class = "button" id = "button3">Portfolio</button>
-	<button class = "button" id = "button4">Contact</button>
-    </div>
-    </div>
-    </div>
-    </div>
-    -->
     <div class="row" style="background-image:url(QueensTitleImage.jpg);background-repeat: no-repeat;
-	background-size:cover;min-height:600px;height:100vh;"> <!--Navbar and titleImage row-->
+	background-size:cover;height:100vh;"> <!--Navbar and titleImage row-->
     
     	<div class="col-12-lg container-fluid">
-    
-    		<div class= "row" style="background-color:white;"> <!--Navbar-->
-    			<div class="col-lg-10 col-md-offset-1">
-    				<div class="row">
-    					<div class="col-lg-6" style="font-size:200%;font-family:'JosefinSans Regular'; padding-top:20px;padding-bottom:20px;">
-    Developer's Foundation - Queen's Chapter
-    					</div>
+            
+            <div class="navbar navbar-default navbar-fixed-top" style="background-color:white;padding-top:10px;padding-bottom:10px;">
+            	<div class="container">
+                	<div class="navbar-header">
+                    <a href="#" class="navbar-brand" style="font-family:'JosefinSans Regular';font-size:150%;">
+                    Developer's Foundation - Queen's Chapter
+                    </a>
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    </div>
                     
-    					<div class="col-lg-6" style="padding-bottom:10px;">
-    <button class="button" id="button1">About</button>
-	<button class="button" id="button2">Our Services</button>
-    <button class="button" id="button3">Portfolio</button>
-	<button class="button" id="button4">Contact</button>
-    					</div>
-    				</div>
-    			</div>
-    		</div> <!--Close Navbar-->
-    
+                    <div class="collapse navbar-collapse navHeaderCollapse">
+                    <ul class="nav navbar-nav navbar-right" style="font-family:'JosefinSans Regular';font-size:150%">
+                   		<li><a href="#" id="button1" >About</a></li>
+                        <li><a href="#" id="button2">What we do</a></li>
+                        <li><a href="#" id="button3">Portfolio</a></li>
+                        <li><a href="#" id="button4">Contact</a></li>
+                    </ul>
+                        
+                    
+                    </div>
+                </div>
+            
+            </div>
     	
         	<div class="row">
     			<div class="col-lg-12">
     				<div id="titlemsg">
 						Developer's Foundation
-    				</div>
+                        <br />
+                    	SendGrid
+    				</div>                  
     			</div>
     		</div>
         </div>
@@ -149,29 +159,31 @@
             </div><!--Close WhatWeDo title-->
             
             <div class="row" style="padding-bottom:20px"> <!--3 panels section-->
-      
-            	<div class="col-lg-4"><!--EstablishAConnection Section-->
+            
+      			<div class = "col-lg-10 col-md-offset-1">
+                
+            	<div class="col-lg-4  fade-background"><!--EstablishAConnection Section-->
             		<div class="row text-center">
             			<h2 style="font-family:'JosefinSans Regular';">Establish a connection with us</h2>
             		</div>
             			<div class="text-center" style="padding-top:20px;padding-bottom:20px;">
-            				<span style="font-size:10em; color:#212A8F;" class="glyphicon glyphicon-link"></span>
+            				<span style="font-size:8em; color:#212A8F;" class="glyphicon glyphicon-link"></span>
             			</div>
   			
   					<div class="WWDtext row">
             			<div class="col-lg-10 col-md-offset-1" style="text-align:justify;">
- 							<p> Are you an NPO in Kingston or a club with NPO connections looking to get online? </p>
-							<p> We're here to help you for little to no cost. Contact us and we can get you started. You'll be directed to this team. </p>
+							<p> If you're an NPO, we're here to help you establish an online presence for little to no cost. </p><p>We would love to help you. Contact us and we can get you started. </p>
 						</div>
            			 </div>
 				</div> <!-- Close EstablishAConnection Section-->
             
-           		<div class="col-lg-4"> <!--WeMakeYourWebsite Section-->
+           		<div class="col-lg-4  fade-background"> <!--WeMakeYourWebsite Section-->
             		<div class="row text-center">
             			<h2 style="font-family:'JosefinSans Regular';">We create your website</h2>
             		</div>
             			<div class="text-center" style="padding-top:20px;padding-bottom:20px;">
-            				<span style="font-size:10em; color:#F9FF8C;" class="glyphicon glyphicon-file"></span>
+            				<span style="font-size:8em; color:#212A8F;" class="glyphicon glyphicon-file"></span>
+                            <!--#F9FF8C-->
             			</div>
             
             		<div class="WWDtext row">
@@ -183,12 +195,13 @@
          		</div><!--Close WeMakeYourWebsite Section-->
             
             
-            	<div class="col-lg-4"> <!-- YourSiteWillBeHosted section-->
+            	<div class="col-lg-4  fade-background"> <!-- YourSiteWillBeHosted section-->
             		<div class="row text-center">
             			<h2 style="font-family:'JosefinSans Regular';">Your site will be hosted</h2>
             		</div>
             			<div class="text-center" style="padding-top:20px;padding-bottom:20px;">
-            				<span style="font-size:10em; color:#D60909;" class="glyphicon glyphicon-globe"></span>
+            				<span style="font-size:8em; color:#212A8F;" class="glyphicon glyphicon-globe"></span>
+                            <!--#D60909-->
             			</div>
                         
             		<div class="WWDtext row">
@@ -200,12 +213,12 @@
             		</div>
             	</div> <!--Close YourSiteWillBeHosted section-->
                 
-                  
+                 </div>
         	</div> <!--Close column for centering -->
 		</div><!--Close WhatWeDo section-->
     
     
-    <div class="row Portfolio" style="font-family:'JosefinSans Regular'; padding-bottom:40px;"><!--Portfolio section-->
+    <div class="row Portfolio" style="font-family:'JosefinSans Regular'; padding-bottom:10px;"><!--Portfolio section-->
     	<div class="col-lg-8 col-md-offset-2">
         
         	<div class="row"> <!--Portfolio title-->
@@ -215,21 +228,99 @@
 			</div><!--Close Portfolio title-->
             
             <div class="row"> <!--Portfolio info-->
-            	<div class="col-lg-12">
-                	Fill in portfolio here
-                </div>
+            	This section is under construction, check back soon!
+                <ul class="grid cs-style-3">
+					<li>
+						<figure>
+							<img src="blue.jpg" alt="img01">
+							<figcaption>
+								<h3>Site 1</h3>
+								<span>Coming soon!</span>
+								<a href="#">Visit</a>
+							</figcaption>
+						</figure>
+					</li>
+					
+                    <li>
+						<figure>
+							<img src="blue.jpg" alt="img01">
+							<figcaption>
+								<h3>Site 2</h3>
+								<span>Coming soon</span>
+								<a href="#">Visit</a>
+							</figcaption>
+						</figure>
+					</li>
+                    
+                    <li>
+						<figure>
+							<img src="blue.jpg" alt="img01">
+							<figcaption>
+								<h3>Site 3</h3>
+								<span>Coming soon</span>
+								<a href="#">Visit</a>
+							</figcaption>
+						</figure>
+					</li>
+                    
+                    <li>
+						<figure>
+							<img src="blue.jpg" alt="img01">
+							<figcaption>
+								<h3>Site 4</h3>
+								<span>Coming soon</span>
+								<a href="#">Visit</a>
+							</figcaption>
+						</figure>
+					</li>
+
+				</ul>
+                
             </div> <!--Close Portfolio info-->
       
         </div>
     </div> <!--Close portfolio section-->
     
-    <div class="row Contact" style="font-family:'JosefinSans Regular'; padding-bottom:40px;"> <!--ContactUS Section-->
+    <div class="row Contact" style="font-family:'JosefinSans Regular'; padding-bottom:40px;background-color:#fbfbfb;"> <!--ContactUS Section-->
     
 		<div class="col-lg-8 col-md-offset-2">
         
-        	<h1 style="font-size:350%; padding-bottom:40px;">Are you interested? Let's initiate a connection.</h1>
+        	<h1 style="font-size:350%; padding-bottom:40px;">Let's initiate a connection</h1>
             
-        	<p style="font-size:200%">Visit the <a href="https://developersfoundation.ca/">main Developers' Foundation website</a> for more information and to send a message to the main team. You will be directed to us if you are situated in the Kingston area. </p>
+            <!--
+            <form class="form-email form-horizontal" action="" method="post" data-form-type="nob" style ="font-size:200%;">
+            
+            
+        		<div class="input-group">
+                	Hi there, my name is
+                   	<div class="col-sm-10">
+                  		<input type="text" class="form-control form-input-name" placeholder="Your Name" id="name">
+                   	</div>
+        		</div>
+                
+        		<div class="input-group">
+                	<label for="email" class="col-sm-2 control-label">My email is </label>
+                    <div class="col-sm-10">
+            			<input type="text" class="form-control form-input-email" placeholder="Your Email" id="email">
+                    </div>
+        		</div>
+    	
+            
+    			<div class="input-group">
+                	<label for="email" class="col-sm-2 control-label">My email is </label>
+            		<div class="col-sm-10">
+                		<textarea class="form-control form-input-message" placeholder="Your Message" rows="4"></textarea>
+                	</div>
+                
+    			</div>
+            
+    			<div class="col-lg-12 text-center">
+        			<button class="btn btn-raised btn-primary btn-lg">Send</button>
+    			</div>
+			</form>
+            -->
+         
+        	<p style="font-size:150%"> Additionally, you can visit the <a href="https://developersfoundation.ca/">main Developers' Foundation website</a> for more information and to send a message to the main team. You will be directed to us if you are situated in the Kingston area. </p>
         </div>
         
 	</div> <!--Close ContactUS Section-->
@@ -245,10 +336,12 @@
 </div> <!-- Close main container-->
 
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="bootstrap.js"></script>
+<script src="bootstrap.min.css"></script>
+<script src="bootstrap-theme.min.css"></script>
+<script src="main.js"></script>
+<script src="mailer.php"></script>
+<script src="CaptionHoverEffects/toucheffects.js"></script>
 
 </body>
 </html>
@@ -280,26 +373,26 @@
 		
 		$("#button1").click(function() {
 			$('html, body').animate({
-				scrollTop: $(".About").offset().top
+				scrollTop: $(".About").offset().top -50
 			}, 1500);
 		});
 		
 		$("#button2").click(function() {
 			$('html, body').animate({
-				scrollTop: $(".WhatWeDo").offset().top
+				scrollTop: $(".WhatWeDo").offset().top -100
 			}, 1500);
 		});
 		
 		
 		$("#button3").click(function() {
 			$('html, body').animate({
-				scrollTop: $(".Portfolio").offset().top
+				scrollTop: $(".Portfolio").offset().top -100
 			}, 1500);
 		});
 		
 		$("#button4").click(function() {
 			$('html, body').animate({
-				scrollTop: $(".Contact").offset().top
+				scrollTop: $(".Contact").offset().top -50
 			}, 1500);
 		});
 		
