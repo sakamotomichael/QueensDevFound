@@ -410,10 +410,11 @@ border-radius:25px;
             
             	<div class="row">
                 <div class="col-lg-12">
-            	<form action="" class="mainWrap npoForm">
-  				<input placeholder="Name (NPO)" type="text" class="name" />
-  				<input placeholder="Email Address" type="email" class="email" />
-  				<textarea placeholder="Enter your message" class="mainArea"></textarea>
+                
+            	<form action="" class="mainWrap npoForm form-email" method="post" data-form-type="nob">
+  				<input placeholder="Name (NPO)" type="text" class="name form-input-name" />
+  				<input placeholder="Email Address" type="email" class="email form-input-email" />
+  				<textarea placeholder="Enter your message" class="mainArea form-input-message"></textarea>
   				<button class="bigBtn"><i class="fa fa-inbox"></i> Send your Message</button>
 				</form>
                 

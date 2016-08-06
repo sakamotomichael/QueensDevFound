@@ -25,7 +25,7 @@ $(document).ready(function () {
                 msg = messageField.val(),
                 msgHTML = "<p>" + messageField.val() + "<p>",
                 fromName = nameField.val(),
-                toName = "Nigerian Association of London and Area";
+                toName = "Queen's DevFound team";
 
             var sendData = JSON.stringify({
                 'sendFrom': sendFrom,
