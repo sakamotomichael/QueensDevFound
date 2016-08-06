@@ -9,6 +9,9 @@
 
 <link rel = "stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="CaptionHoverEffects/component.css" />
+<link rel="stylesheet" type="text/css" href="HeaderEffect/component.css" />
+
+<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800|Londrina+Outline' rel='stylesheet' type='text/css'>
 
 <script src="jquery-3.0.0.min.js"></script>
 <script src="CaptionHoverEffects/modernizr.custom.js"></script>
@@ -40,16 +43,7 @@
 	border-radius: 2px;
 	margin-top:10px;
 }
-#titlemsg{
-	font-size:5em;
-	color:white;
-	text-align: center;
-	font-family: "JosefinSans Regular";
-	position:absolute;
-	margin-top:45vh;
-	left:0;
-	right:0;
-}
+
 
 .fade-background{
 -moz-transition: all .2s ease-in;
@@ -58,12 +52,116 @@
 transition: all .2s ease-in;
 }
 
-
-
 .fade-background:hover{
-background-color: #B7EDFF;
-color:white;
+background-color: white;
+color:#CCC;
 border-radius:25px;
+}
+
+.mainWrap {
+  max-width:900px;
+  width:80%;
+  margin:0 auto;
+  padding-bottom:100px;
+}
+
+.name,
+.email {
+  width:49%;
+  border:0;
+  background:#fff;
+  padding:20px;
+  font-size:1.2em;
+  font-family:"JosefinSans Regular";
+  box-shadow:4px 4px 0px rgba(0,0,0,.1);
+  color:#111;
+}
+
+::-webkit-input-placeholder {
+  color: #696969;
+}
+
+:-moz-placeholder {
+ color: #696969; 
+}
+
+::-moz-placeholder {  
+ color: #696969;
+}
+
+:-ms-input-placeholder {  
+ color: #696969;
+}
+
+.name {
+  float:left;
+}
+
+.email {
+  float:right;
+}
+
+.mainArea {
+  width:100%;
+  box-shadow:4px 4px 0px rgba(0,0,0,.1);
+  font-size:1.4em;
+  margin-top:20px;
+  padding:20px;
+  font-family:"JosefinSans Regular";
+  color:#111;
+  height:400px;
+  resize:none;
+}
+
+.bigBtn {
+  width:100%;
+  padding:20px;
+  text-align:center;
+  margin-top:20px;
+  font-size:2em;
+  font-family:"JosefinSans Regular";
+  background:#8AC6D0;
+  color:#fff;
+  cursor:pointer;
+}
+
+/* Landscape mobile & down */
+@media (max-width: 30em) {
+  .wrap h1 {
+    font-size:2.3em;
+    letter-spacing:0;
+  }
+  
+  .wrap p {
+    font-size:1.1em;
+    line-height:1.4em;
+  }
+  
+  .name,.email {
+    width:100%;
+  }
+  
+  .email {
+    margin-top:20px;
+  }
+  
+  .bigBtn {
+    font-size:1em;
+  }
+}
+
+.formbutton{
+    background-color: #8AC6D0;
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2em;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius:5px;
 }
 
 </style>
@@ -73,16 +171,14 @@ border-radius:25px;
 <body>
 <div class="container-fluid">
 
-    <div class="row" style="background-image:url(QueensTitleImage.jpg);background-repeat: no-repeat;
+
+    <div class="row" style="background-image:url(QueensHeaderBW.jpg);background-repeat: no-repeat;
 	background-size:cover;height:100vh;"> <!--Navbar and titleImage row-->
-    
-    	<div class="col-12-lg container-fluid">
-            
-            <div class="navbar navbar-default navbar-fixed-top" style="background-color:white;padding-top:10px;padding-bottom:10px;">
+    	<div class="navbar navbar-default navbar-fixed-top" style="background-color:white;padding-top:10px;padding-bottom:10px;">
             	<div class="container">
                 	<div class="navbar-header">
                     <a href="#" class="navbar-brand" style="font-family:'JosefinSans Regular';font-size:150%;">
-                    Developer's Foundation - Queen's Chapter
+                    Developer's Foundation
                     </a>
                     <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
                     <span class="icon-bar"></span>
@@ -102,20 +198,19 @@ border-radius:25px;
                     
                     </div>
                 </div>
-            
-            </div>
-    	
-        	<div class="row">
+	</div>
+    
+    	<div class="col-12-lg container-fluid">
+        	<div class="row demo-3">
     			<div class="col-lg-12">
-    				<div id="titlemsg">
-						Developer's Foundation
-                        <br />
-                    	SendGrid
-    				</div>                  
-    			</div>
-    		</div>
+                	<div id="large-header" class="large-header">
+                    <canvas id="demo-canvas"></canvas>
+                    <h1 class="main-title">Developers' Foundation<br />Queen's Chapter</span></h1>
+                	</div>
+            	</div>           
+			</div>
         </div>
-	</div> <!-- Close navbar and titleScreen-->
+	</div>
 
   
     
@@ -135,7 +230,7 @@ border-radius:25px;
 				</div> <!--Close Image column-->
             
             	<div class="col-lg-6"> <!-- Description column-->
-            		<div class="col-lg-10" style="font-size:150%; font-family:'JosefinSans Regular'; text-align:justify;">
+            		<div class="col-lg-10" style="font-size:150%; font-family:'JosefinSans Regular'; text-align:justify;padding-top:20px;padding-bottom:20px;">
             			<h2><b>Every company deserves to be recognized</b></h2>
             			<br />
         				<p> We're a team of students and aspiring web designers which serve as a subteam for Developers' Foundation. 			</p>
@@ -148,9 +243,9 @@ border-radius:25px;
         </div>
 	</div><!--Close about section-->
     
-    <div class="row WhatWeDo" style="padding-bottom:40px; background-color:#fbfbfb;"> <!--WhatWeDo section-->
+    <div class="row WhatWeDo" style="padding-bottom:40px; background:url(grey_wash_wall.png);"> <!--WhatWeDo section-->
     
-		<div class="col-lg-10 col-md-offset-1"> <!--column for centering -->
+		<div class="col-lg-10 col-md-offset-1" style="color:white;"> <!--column for centering -->
         
         	<div class="row"> <!--WhatWeDo title-->
         		<div style="text-align:center;">
@@ -167,7 +262,7 @@ border-radius:25px;
             			<h2 style="font-family:'JosefinSans Regular';">Establish a connection with us</h2>
             		</div>
             			<div class="text-center" style="padding-top:20px;padding-bottom:20px;">
-            				<span style="font-size:8em; color:#212A8F;" class="glyphicon glyphicon-link"></span>
+            				<span style="font-size:8em; color:#0000FF;" class="glyphicon glyphicon-link"></span>
             			</div>
   			
   					<div class="WWDtext row">
@@ -182,13 +277,14 @@ border-radius:25px;
             			<h2 style="font-family:'JosefinSans Regular';">We create your website</h2>
             		</div>
             			<div class="text-center" style="padding-top:20px;padding-bottom:20px;">
-            				<span style="font-size:8em; color:#212A8F;" class="glyphicon glyphicon-file"></span>
+            				<span style="font-size:8em; color:#FFFF00" class="glyphicon glyphicon-file"></span>
+                            <!--#212A8F dark blue-->
                             <!--#F9FF8C-->
             			</div>
             
             		<div class="WWDtext row">
             			<div class="col-lg-10 col-md-offset-1" style="text-align:justify;">
-        					<p> Our team is comprised of five aspiring web developers and business students. </p>
+        					<p> Our development team is comprised of four aspiring web developers.</p>
 							<p> We'll be in constant contact with you to ensure that you have the perfect website that your NPO deserves. </p>
 						</div>
             		</div>
@@ -200,7 +296,7 @@ border-radius:25px;
             			<h2 style="font-family:'JosefinSans Regular';">Your site will be hosted</h2>
             		</div>
             			<div class="text-center" style="padding-top:20px;padding-bottom:20px;">
-            				<span style="font-size:8em; color:#212A8F;" class="glyphicon glyphicon-globe"></span>
+            				<span style="font-size:8em; color:#FF0000;" class="glyphicon glyphicon-globe"></span>
                             <!--#D60909-->
             			</div>
                         
@@ -285,42 +381,60 @@ border-radius:25px;
     
 		<div class="col-lg-8 col-md-offset-2">
         
+        	<div class="row">
+            <div class="col-lg-12 text-center">
         	<h1 style="font-size:350%; padding-bottom:40px;">Let's initiate a connection</h1>
+            </div>
+            </div>
             
-            <!--
-            <form class="form-email form-horizontal" action="" method="post" data-form-type="nob" style ="font-size:200%;">
-            
-            
-        		<div class="input-group">
-                	Hi there, my name is
-                   	<div class="col-sm-10">
-                  		<input type="text" class="form-control form-input-name" placeholder="Your Name" id="name">
-                   	</div>
-        		</div>
+            <div class="row">
+			<div class="col-lg-12">
+            	<div class="row text-center formTitle">
+                <h1>Hey Developers' Foundation Queen's team! I am:</h1>
+                </div>
+				<div class="row">
+                	<div class="col-lg-8 col-md-offset-2">
+                    <div class="row">
+                    
+            		<div class="col-lg-6 text-center" style="padding-top:20px;padding-bottom:20px;">
+                	<button type="button" class="formbutton" id="npobutton">An NPO</button>
+               	 	</div>
                 
-        		<div class="input-group">
-                	<label for="email" class="col-sm-2 control-label">My email is </label>
-                    <div class="col-sm-10">
-            			<input type="text" class="form-control form-input-email" placeholder="Your Email" id="email">
-                    </div>
-        		</div>
-    	
-            
-    			<div class="input-group">
-                	<label for="email" class="col-sm-2 control-label">My email is </label>
-            		<div class="col-sm-10">
-                		<textarea class="form-control form-input-message" placeholder="Your Message" rows="4"></textarea>
+               		<div class="col-lg-6 text-center" style="padding-top:20px;padding-bottom:20px;">
+                	<button type="button" class="formbutton" id="studentbutton">A Student</button>
                 	</div>
-                
-    			</div>
+                    
+                    </div>
+                    </div>
+           		</div>
             
-    			<div class="col-lg-12 text-center">
-        			<button class="btn btn-raised btn-primary btn-lg">Send</button>
-    			</div>
-			</form>
-            -->
-         
-        	<p style="font-size:150%"> Additionally, you can visit the <a href="https://developersfoundation.ca/">main Developers' Foundation website</a> for more information and to send a message to the main team. You will be directed to us if you are situated in the Kingston area. </p>
+            	<div class="row">
+                <div class="col-lg-12">
+            	<form action="" class="mainWrap npoForm">
+  				<input placeholder="Name (NPO)" type="text" class="name" />
+  				<input placeholder="Email Address" type="email" class="email" />
+  				<textarea placeholder="Enter your message" class="mainArea"></textarea>
+  				<button class="bigBtn"><i class="fa fa-inbox"></i> Send your Message</button>
+				</form>
+                
+                <form action="" class="mainWrap stuForm">
+  				<input placeholder="Name (Student)" type="text" class="name" />
+  				<input placeholder="Email Address" type="email" class="email" />
+  				<textarea placeholder="Enter your message" class="mainArea"></textarea>
+  				<button class="bigBtn"><i class="fa fa-inbox"></i> Send your Message</button>
+				</form>
+            	</div>     
+                </div>    
+       		</div>
+    		</div>
+            
+            
+            
+         	<div class="row">
+            <div class="col-lg-12">
+        	<p style="font-size:150%"> You can also visit the <a href="https://developersfoundation.ca/">main Developers' Foundation website</a> for more information about Developers' Foundation in general. </p>
+            </div>
+            </div>
         </div>
         
 	</div> <!--Close ContactUS Section-->
@@ -337,11 +451,13 @@ border-radius:25px;
 
 
 <script src="bootstrap.js"></script>
-<script src="bootstrap.min.css"></script>
-<script src="bootstrap-theme.min.css"></script>
-<script src="main.js"></script>
-<script src="mailer.php"></script>
+<script src="mailerFiles/main.js"></script>
 <script src="CaptionHoverEffects/toucheffects.js"></script>
+
+<script src="HeaderEffect/TweenLite.min.js"></script>
+<script src="HeaderEffect/EasePack.min.js"></script>
+<script src="HeaderEffect/rAF.js"></script>
+<script src="HeaderEffect/demo-3.js"></script>
 
 </body>
 </html>
@@ -349,26 +465,7 @@ border-radius:25px;
 <script>
 	$(document).ready(function(){
 		
-		<!-- BUTTONS -->
-		$('#buttons').hide();
-		
-		setTimeout(function(){
-			$('#buttons').css({visibility: "visible"}).fadeIn(1500);
-		},1000); 
-		
-		$('#devFoundation').hide();
-		
-		setTimeout(function(){
-			$('#devFoundation').css({visibility: "visible"}).fadeIn(1500);
-		},1000); 
-		
-		$(".button").hover(function(){
-			$(this).css("background-color","#D2D6D9");
-		},function(){
-    		$(this).css("background-color","");
-			$(this).css("border","");
-  		});
-		
+
 		<!-- SCROLL TO -->
 		
 		$("#button1").click(function() {
@@ -396,17 +493,29 @@ border-radius:25px;
 			}, 1500);
 		});
 		
-		<!-- ONE -->
+		<!--Form hide/show-->
 		
-		$('#title1').hide();
-		$('#title1').css({visibility: "visible"}).fadeIn(1500);
+		$('.npoForm').hide();
+		$('.stuForm').hide();
+	
+	
+		$( "#npobutton" ).click(function() {
+			$('.stuForm').hide();
+			$('.npoForm').fadeIn(1000);
+			$('html, body').animate({
+				scrollTop: $(".formTitle").offset().top -100
+			}, 1000);
+		});
+	
+		$( "#studentbutton" ).click(function() {
+			$('.npoForm').hide();
+			$('.stuForm').fadeIn(1000);
+			$('html, body').animate({
+				scrollTop: $(".formTitle").offset().top -100
+			}, 1000);
+		});
 		
-		$('#message').hide();
-		setTimeout(function(){
-			$('#message').css({visibility: "visible"}).fadeIn(1500);
-		},500); 
-		
-		
+			
 	});
 	
 </script>
