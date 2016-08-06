@@ -11,10 +11,6 @@
 <link rel="stylesheet" type="text/css" href="CaptionHoverEffects/component.css" />
 <link rel="stylesheet" type="text/css" href="HeaderEffect/component.css" />
 
-<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800|Londrina+Outline' rel='stylesheet' type='text/css'>
-
-<script src="jquery-3.0.0.min.js"></script>
-<script src="CaptionHoverEffects/modernizr.custom.js"></script>
 
 <link rel="icon" type="image/ico" href="DFFavicon.ico">
 
@@ -450,10 +446,11 @@ border-radius:25px;
            
 </div> <!-- Close main container-->
 
-
+<script src="jquery-3.0.0.min.js"></script>
 <script src="bootstrap.js"></script>
 <script src="MailerFiles/main.js"></script>
 <script src="CaptionHoverEffects/toucheffects.js"></script>
+<script src="CaptionHoverEffects/modernizr.custom.js"></script>
 
 <script src="HeaderEffect/TweenLite.min.js"></script>
 <script src="HeaderEffect/EasePack.min.js"></script>
