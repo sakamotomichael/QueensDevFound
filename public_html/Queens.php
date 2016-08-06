@@ -452,7 +452,7 @@ border-radius:25px;
 
 
 <script src="bootstrap.js"></script>
-<script src="mailerFiles/main.js"></script>
+<script src="MailerFiles/main.js"></script>
 <script src="CaptionHoverEffects/toucheffects.js"></script>
 
 <script src="HeaderEffect/TweenLite.min.js"></script>
