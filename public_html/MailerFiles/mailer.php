@@ -12,9 +12,8 @@ if($_SERVER['REQUEST_METHOD'] === 'GET'){
 }
 
 require '../../vendor/autoload.php'; // MAKE SURE THIS POINTS TO YOUR COMPOSER VENDOR FOLDER
-//$getPost = (array)json_decode(file_get_contents('php://input'));
+$getPost = (array)json_decode(file_get_contents('php://input'));
 
-$getPost = $_POST; 
 
 $sendgrid = new SendGrid('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');
 $email = new SendGrid\Email();
