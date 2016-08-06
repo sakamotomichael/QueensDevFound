@@ -1,12 +1,12 @@
 {
-  "name": "developersfoundation/blank",
-  "description": "blank project",
+  "name": "developersfoundation/Queens",
+  "description": "Queens site",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {
-      "name": "Harrison Chow",
-      "email": "harrison@developersfoundation.ca"
+      "name": "Leonard Ha",
+      "email": "leonard@developersfoundation.ca"
     }
   ],
   "require": {

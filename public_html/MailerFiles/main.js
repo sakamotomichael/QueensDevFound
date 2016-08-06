@@ -36,7 +36,7 @@ $(document).ready(function () {
                 'msg': msg,
                 'msgHTML': msgHTML
             });
-
+			console.log(sendData);
             $.ajax({
                 url: 'MailerFiles/mailer.php',
                 crossDomain: false,
