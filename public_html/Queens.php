@@ -253,7 +253,7 @@ border-radius:15px;
             
       			<div class = "col-lg-10 col-md-offset-1">
                 
-            	<div class="col-lg-4  col-sm-12 fade-background"><!--EstablishAConnection Section-->
+            	<div class="col-lg-4  col-md-4 col-sm-12 fade-background"><!--EstablishAConnection Section-->
             		<div class="row text-center">
             			<h2 style="font-family:'JosefinSans Regular';">Establish a connection with us</h2>
             		</div>
@@ -268,7 +268,7 @@ border-radius:15px;
            			 </div>
 				</div> <!-- Close EstablishAConnection Section-->
             
-           		<div class="col-lg-4 col-sm-12  fade-background"> <!--WeMakeYourWebsite Section-->
+           		<div class="col-lg-4 col-md-4 col-sm-12  fade-background"> <!--WeMakeYourWebsite Section-->
             		<div class="row text-center">
             			<h2 style="font-family:'JosefinSans Regular';">We create your website</h2>
             		</div>
@@ -287,7 +287,7 @@ border-radius:15px;
          		</div><!--Close WeMakeYourWebsite Section-->
             
             
-            	<div class="col-lg-4  col-sm-12 fade-background"> <!-- YourSiteWillBeHosted section-->
+            	<div class="col-lg-4  col-md-4 col-sm-12 fade-background"> <!-- YourSiteWillBeHosted section-->
             		<div class="row text-center">
             			<h2 style="font-family:'JosefinSans Regular';">Your site will be hosted</h2>
             		</div>
@@ -310,7 +310,7 @@ border-radius:15px;
 		</div><!--Close WhatWeDo section-->
     
     
-    <div class="row Portfolio" style="font-family:'JosefinSans Regular'; padding-bottom:10px;"><!--Portfolio section-->
+    <div class="row Portfolio" style="font-family:'JosefinSans Regular'; background:url(cream_dust.png);"><!--Portfolio section-->
     	<div class="col-lg-8 col-md-offset-2">
         
         	<div class="row"> <!--Portfolio title-->
@@ -373,17 +373,17 @@ border-radius:15px;
         </div>
     </div> <!--Close portfolio section-->
     
-    <div class="row Contact" style="font-family:'JosefinSans Regular'; padding-bottom:40px;background-color:#fbfbfb;"> <!--ContactUS Section-->
+    <div class="row Contact" style="font-family:'JosefinSans Regular'; padding-bottom:40px;background:url(black_lozenge.png);"> <!--ContactUS Section-->
     
 		<div class="col-lg-8 col-md-offset-2">
         
         	<div class="row">
             <div class="col-lg-12 text-center">
-        	<h1 style="font-size:350%; padding-bottom:40px;">Let's initiate a connection</h1>
+        	<h1 style="font-size:350%; padding-bottom:20px; color:white;">Let's initiate a connection</h1>
             </div>
             </div>
             
-            <div class="row">
+            <div class="row" style="background:url(cream_dust.png)">
 			<div class="col-lg-12">
             	<div class="row text-center formTitle">
                 <h1>Hey Developers' Foundation Queen's team! I am:</h1>
@@ -427,9 +427,9 @@ border-radius:15px;
             
             
             
-         	<div class="row">
-            <div class="col-lg-12">
-        	<p style="font-size:150%"> You can also visit the <a href="https://developersfoundation.ca/">main Developers' Foundation website</a> for more information about Developers' Foundation in general. </p>
+         	<div class="row" style="padding-top:40px;">
+            <div class="col-lg-12 text-center">
+        	<p style="font-size:150%;color:white;"> You can also visit the <a href="https://developersfoundation.ca/">main Developers' Foundation website</a> for more information about Developers' Foundation in general. </p>
             </div>
             </div>
         </div>
