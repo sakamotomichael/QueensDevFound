@@ -50,8 +50,8 @@ transition: all .2s ease-in;
 
 .fade-background:hover{
 background-color: white;
-color:#CCC;
-border-radius:25px;
+color:black;
+border-radius:15px;
 }
 
 .mainWrap {
@@ -201,7 +201,7 @@ border-radius:25px;
     			<div class="col-lg-12">
                 	<div id="large-header" class="large-header">
                     <canvas id="demo-canvas"></canvas>
-                    <h1 class="main-title">Developers' Foundation<br />Queen's Chapter</span></h1>
+                    <h1 class="main-title"><b>Developers' Foundation</b><br />Queen's Chapter</span></h1>
                 	</div>
             	</div>           
 			</div>
@@ -239,7 +239,7 @@ border-radius:25px;
         </div>
 	</div><!--Close about section-->
     
-    <div class="row WhatWeDo" style="padding-bottom:40px; background:url(grey_wash_wall.png);"> <!--WhatWeDo section-->
+    <div class="row WhatWeDo" style="padding-bottom:40px; background:url(zwartevilt.png);"> <!--WhatWeDo section-->
     
 		<div class="col-lg-10 col-md-offset-1" style="color:white;"> <!--column for centering -->
         
@@ -253,7 +253,7 @@ border-radius:25px;
             
       			<div class = "col-lg-10 col-md-offset-1">
                 
-            	<div class="col-lg-4  fade-background"><!--EstablishAConnection Section-->
+            	<div class="col-lg-4  col-sm-12 fade-background"><!--EstablishAConnection Section-->
             		<div class="row text-center">
             			<h2 style="font-family:'JosefinSans Regular';">Establish a connection with us</h2>
             		</div>
@@ -268,7 +268,7 @@ border-radius:25px;
            			 </div>
 				</div> <!-- Close EstablishAConnection Section-->
             
-           		<div class="col-lg-4  fade-background"> <!--WeMakeYourWebsite Section-->
+           		<div class="col-lg-4 col-sm-12  fade-background"> <!--WeMakeYourWebsite Section-->
             		<div class="row text-center">
             			<h2 style="font-family:'JosefinSans Regular';">We create your website</h2>
             		</div>
@@ -287,7 +287,7 @@ border-radius:25px;
          		</div><!--Close WeMakeYourWebsite Section-->
             
             
-            	<div class="col-lg-4  fade-background"> <!-- YourSiteWillBeHosted section-->
+            	<div class="col-lg-4  col-sm-12 fade-background"> <!-- YourSiteWillBeHosted section-->
             		<div class="row text-center">
             			<h2 style="font-family:'JosefinSans Regular';">Your site will be hosted</h2>
             		</div>
@@ -414,10 +414,10 @@ border-radius:25px;
   				<button class="bigBtn"><i class="fa fa-inbox"></i> Send your Message</button>
 				</form>
                 
-                <form action="" class="mainWrap stuForm">
-  				<input placeholder="Name (Student)" type="text" class="name" />
-  				<input placeholder="Email Address" type="email" class="email" />
-  				<textarea placeholder="Enter your message" class="mainArea"></textarea>
+                <form action="" class="mainWrap stuForm form-email" method="post" data-form-type="nob">
+  				<input placeholder="Name (Student)" type="text" class="name form-input-name" />
+  				<input placeholder="Email Address" type="email" class="email form-input-email" />
+  				<textarea placeholder="Enter your message" class="mainArea form-input-message"></textarea>
   				<button class="bigBtn"><i class="fa fa-inbox"></i> Send your Message</button>
 				</form>
             	</div>     
