@@ -330,7 +330,7 @@ border-radius:15px;
     
     
     <div class="row Portfolio" style="font-family:'JosefinSans Regular'; background:url(light_wool.png);"><!--Portfolio section-->
-    	<div class="col-lg-8 col-md-offset-2">
+    	<div class="col-lg-8 col-md-8 col-md-offset-2">
         
         	<div class="row"> <!--Portfolio title-->
             	<div style="text-align:center;">
@@ -394,7 +394,7 @@ border-radius:15px;
     
     <div class="row Contact" style="font-family:'JosefinSans Regular'; padding-bottom:40px;background:url(formbackground4.jpg);background-repeat: no-repeat;background-size:cover;"> <!--ContactUS Section-->
     
-		<div class="col-lg-8 col-md-offset-2">
+		<div class="col-lg-8 col-md-8 col-md-offset-2">
         
         	<div class="row">
             <div class="col-lg-12 text-center">
