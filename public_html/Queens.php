@@ -58,7 +58,7 @@ border-radius:15px;
   max-width:900px;
   width:80%;
   margin:0 auto;
-  padding-bottom:100px;
+  padding-bottom:50px;
 }
 
 .name,
@@ -105,7 +105,7 @@ border-radius:15px;
   padding:20px;
   font-family:"JosefinSans Regular";
   color:#111;
-  height:400px;
+  height:200px;
   resize:none;
 }
 
@@ -164,11 +164,11 @@ border-radius:15px;
 
 </head>
 
-<body>
+<body style="overflow-x:hidden;">
 <div class="container-fluid">
 
 
-    <div class="row" style="background-image:url(QueensHeaderBW.jpg);background-repeat: no-repeat;
+    <div class="row" style="background-image:url(QueensHeader.jpg);background-repeat: no-repeat;
 	background-size:cover;height:100vh;"> <!--Navbar and titleImage row-->
     	<div class="navbar navbar-default navbar-fixed-top" style="background-color:white;padding-top:10px;padding-bottom:10px;">
             	<div class="container">
@@ -215,7 +215,7 @@ border-radius:15px;
         	<div class="row"><!--About row-->
             	<div class="col-lg-10">
             		<div class="col-lg-8 col-md-offset-2" style="padding-bottom:20px; padding-top:20px;">
-            			<h1 style="font-size:400%; font-family:'JosefinSans Regular';">About</h1>	
+            			<h1 style="font-size:400%; font-family:'JosefinSans Regular';">About Us</h1>	
                 	</div>
             	</div>
             </div><!--Close about row-->
@@ -239,78 +239,97 @@ border-radius:15px;
         </div>
 	</div><!--Close about section-->
     
-    <div class="row WhatWeDo" style="padding-bottom:40px; background:url(zwartevilt.png);"> <!--WhatWeDo section-->
+    <div class="row WhatWeDo" style="padding-bottom:40px;background:url(wwdbackground2.jpg);background-repeat: no-repeat; background-size:cover;background-position:center;"> <!--WhatWeDo section-->
     
-		<div class="col-lg-10 col-md-offset-1" style="color:white;"> <!--column for centering -->
+				<div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1"> <!--column for centering -->
         
-        	<div class="row"> <!--WhatWeDo title-->
-        		<div style="text-align:center;">
-            		<h1 style="font-size:400%; font-family:'JosefinSans Regular';">What we do</h1>	
-            	</div>
-            </div><!--Close WhatWeDo title-->
-            
-            <div class="row" style="padding-bottom:20px"> <!--3 panels section-->
-            
-      			<div class = "col-lg-10 col-md-offset-1">
-                
-            	<div class="col-lg-4  col-md-4 col-sm-12 fade-background"><!--EstablishAConnection Section-->
-            		<div class="row text-center">
-            			<h2 style="font-family:'JosefinSans Regular';">Establish a connection with us</h2>
-            		</div>
-            			<div class="text-center" style="padding-top:20px;padding-bottom:20px;">
-            				<span style="font-size:8em; color:#0000FF;" class="glyphicon glyphicon-link"></span>
+        			<div class="row"> <!--WhatWeDo title-->
+        				<div style="text-align:center;">
+            				<h1 style="font-size:400%; font-family:'JosefinSans Regular';color:white;">What we do</h1>	
             			</div>
+            		</div><!--Close WhatWeDo title-->
+            
+            		<div class="row" style="padding-bottom:20px;"> <!--3 panels section-->
+            
+      					<div class = "col-md-10 col-md-offset-1"> <!--3 panels offset-->  
+                
+            				<div class="col-lg-4  col-md-12 col-sm-12 col-xs-12"><!--EstablishAConnection Section-->
+               					
+             					<div style="background:rgba(255,255,255,0.9);border-style:solid;border-color:blue;border-radius:25px;margin-top:10px;margin-bottom:10px;">
+          
+									<div class="row text-center" style="margin-left:5px;margin-right:5px;">
+            							<h2 style="font-family:'JosefinSans Regular';">Establish a connection</h2>
+            						</div>
+                    
+            						<div class="text-center" style="padding-top:20px;padding-bottom:20px;">
+            							<span style="font-size:8em; color:#0000FF;" class="glyphicon glyphicon-link"></span>
+            						</div>
   			
-  					<div class="WWDtext row">
-            			<div class="col-lg-10 col-md-offset-1" style="text-align:justify;">
-							<p> If you're an NPO, we're here to help you establish an online presence for little to no cost. </p><p>We would love to help you. Contact us and we can get you started. </p>
-						</div>
-           			 </div>
-				</div> <!-- Close EstablishAConnection Section-->
-            
-           		<div class="col-lg-4 col-md-4 col-sm-12  fade-background"> <!--WeMakeYourWebsite Section-->
-            		<div class="row text-center">
-            			<h2 style="font-family:'JosefinSans Regular';">We create your website</h2>
-            		</div>
-            			<div class="text-center" style="padding-top:20px;padding-bottom:20px;">
-            				<span style="font-size:8em; color:#FFFF00" class="glyphicon glyphicon-file"></span>
-                            <!--#212A8F dark blue-->
-                            <!--#F9FF8C-->
-            			</div>
-            
-            		<div class="WWDtext row">
-            			<div class="col-lg-10 col-md-offset-1" style="text-align:justify;">
-        					<p> Our development team is comprised of four aspiring web developers.</p>
-							<p> We'll be in constant contact with you to ensure that you have the perfect website that your NPO deserves. </p>
-						</div>
-            		</div>
-         		</div><!--Close WeMakeYourWebsite Section-->
-            
-            
-            	<div class="col-lg-4  col-md-4 col-sm-12 fade-background"> <!-- YourSiteWillBeHosted section-->
-            		<div class="row text-center">
-            			<h2 style="font-family:'JosefinSans Regular';">Your site will be hosted</h2>
-            		</div>
-            			<div class="text-center" style="padding-top:20px;padding-bottom:20px;">
-            				<span style="font-size:8em; color:#FF0000;" class="glyphicon glyphicon-globe"></span>
-                            <!--#D60909-->
-            			</div>
-                        
-            		<div class="WWDtext row">
-            			<div class="col-lg-10 col-md-offset-1" style="text-align:justify;">
-            				<p> The website we create for you will be hosted using Heroku, with no initial or monthly costs.
+  									<div class="WWDtext row" style="margin-left:5px;margin-right:5px;">
+            							<div class="col-lg-10 col-md-offset-1" style="text-align:justify;">
+											<p> If you're an NPO, we're here to help you establish an online presence for little to no cost. </p><p>We would love to help you. Contact us and we can get you started. </p>
+										</div>
+           			 				</div>
+                     
+                				</div>
+                     			
+							</div> <!-- Close EstablishAConnection Section-->
+                            
+                            <div class="col-lg-4  col-md-12 col-sm-12 col-xs-12"><!--We create your website Section-->
+               					
+             					<div style="background:rgba(255,255,255,0.9);border-style:solid;border-color:yellow;border-radius:25px;margin-top:10px;margin-bottom:10px;">
+          
+									<div class="row text-center" style="margin-left:5px;margin-right:5px;">
+            							<h2 style="font-family:'JosefinSans Regular';">We create your website</h2>
+            						</div>
+                    
+            						<div class="text-center" style="padding-top:20px;padding-bottom:20px;">
+            							<span style="font-size:8em; color:#FFFF00" class="glyphicon glyphicon-file"></span>
+            						</div>
+  			
+  									<div class="WWDtext row" style="margin-left:5px;margin-right:5px;">
+            							<div class="col-lg-10 col-md-offset-1" style="text-align:justify;">
+											<p> Our development team is comprised of four aspiring web developers.</p>
+											<p> We'll be in constant contact with you to ensure that you have the perfect website that your NPO deserves. </p>
+										</div>
+           			 				</div>
+                     
+                				</div>
+                     			
+							</div> <!-- Close We create your website Section-->
+                            
+                            <div class="col-lg-4  col-md-12 col-sm-12 col-xs-12"><!--YourSiteWillBeHosted Section-->
+               					
+             					<div style="background:rgba(255,255,255,0.9);border-style:solid;border-color:red;border-radius:25px;margin-top:10px;margin-bottom:10px;">
+          
+									<div class="row text-center" style="margin-left:5px;margin-right:5px;">
+            							<h2 style="font-family:'JosefinSans Regular';">Your site will be hosted</h2>
+            						</div>
+                    
+            						<div class="text-center" style="padding-top:20px;padding-bottom:20px;">
+            							<span style="font-size:8em; color:#FF0000;" class="glyphicon glyphicon-globe"></span>
+            						</div>
+  			
+  									<div class="WWDtext row" style="margin-left:5px;margin-right:5px;">
+            							<div class="col-lg-10 col-md-offset-1" style="text-align:justify;">
+											<p> The website we create for you will be hosted using Heroku, with no initial or monthly costs.
 </p>
-							<p> Your site will be on the internet for as long as it needs to be.</p> </div>
-            			</div>
-            		</div>
-            	</div> <!--Close YourSiteWillBeHosted section-->
-                
-                 </div>
-        	</div> <!--Close column for centering -->
-		</div><!--Close WhatWeDo section-->
+											<p> Your site will be on the internet for as long as it needs to be.</p> </div>
+										</div>
+           			 				</div>
+                     
+                				</div>
+                     			
+							</div> <!-- Close YourSiteWillBeHosted Section-->
+            
+						</div>
+             		</div>
+            
+        		</div> <!--Close column for centering -->
+	</div><!--Close WhatWeDo section-->
     
     
-    <div class="row Portfolio" style="font-family:'JosefinSans Regular'; background:url(cream_dust.png);"><!--Portfolio section-->
+    <div class="row Portfolio" style="font-family:'JosefinSans Regular'; background:url(light_wool.png);"><!--Portfolio section-->
     	<div class="col-lg-8 col-md-offset-2">
         
         	<div class="row"> <!--Portfolio title-->
@@ -373,17 +392,17 @@ border-radius:15px;
         </div>
     </div> <!--Close portfolio section-->
     
-    <div class="row Contact" style="font-family:'JosefinSans Regular'; padding-bottom:40px;background:url(black_lozenge.png);"> <!--ContactUS Section-->
+    <div class="row Contact" style="font-family:'JosefinSans Regular'; padding-bottom:40px;background:url(formbackground4.jpg);background-repeat: no-repeat;background-size:cover;"> <!--ContactUS Section-->
     
 		<div class="col-lg-8 col-md-offset-2">
         
         	<div class="row">
             <div class="col-lg-12 text-center">
-        	<h1 style="font-size:350%; padding-bottom:20px; color:white;">Let's initiate a connection</h1>
+        	<h1 style="font-size:350%; padding-bottom:20px; color:white;text-shadow: 1px 0 0 #CCC, 0 -1px 0 #CCC, 0 1px 0 #CCC, -1px 0 0 #CCC;"><b>Send us a message - let's initiate a connection.</b></h1>
             </div>
             </div>
             
-            <div class="row" style="background:url(cream_dust.png)">
+            <div class="row" style="background:url(cream_dust.png);border-radius:25px;">
 			<div class="col-lg-12">
             	<div class="row text-center formTitle">
                 <h1>Hey Developers' Foundation Queen's team! I am:</h1>
@@ -392,11 +411,11 @@ border-radius:15px;
                 	<div class="col-lg-8 col-md-offset-2">
                     <div class="row">
                     
-            		<div class="col-lg-6 text-center" style="padding-top:20px;padding-bottom:20px;">
+            		<div class="col-lg-6 col-sm-6 text-center" style="padding-top:20px;padding-bottom:20px;">
                 	<button type="button" class="formbutton" id="npobutton">An NPO</button>
                	 	</div>
                 
-               		<div class="col-lg-6 text-center" style="padding-top:20px;padding-bottom:20px;">
+               		<div class="col-lg-6 col-sm-6 text-center" style="padding-top:20px;padding-bottom:20px;">
                 	<button type="button" class="formbutton" id="studentbutton">A Student</button>
                 	</div>
                     
@@ -421,17 +440,16 @@ border-radius:15px;
   				<button class="bigBtn"><i class="fa fa-inbox"></i> Send your Message</button>
 				</form>
             	</div>     
-                </div>    
+                </div>
+                
+                <div class="row" style="padding-bottom:40px;">
+            	<div class="col-lg-12 text-center">
+                <p class="moreInfo" style="font-size:150%;color:black;">You can also visit the <a href="https://developersfoundation.ca" target="_blank">main Developers' Foundation website</a> for more information about Developers' Foundation in general.</p>  
+                </div>
+                </div>  
        		</div>
     		</div>
-            
-            
-            
-         	<div class="row" style="padding-top:40px;">
-            <div class="col-lg-12 text-center">
-        	<p style="font-size:150%;color:white;"> You can also visit the <a href="https://developersfoundation.ca/">main Developers' Foundation website</a> for more information about Developers' Foundation in general. </p>
-            </div>
-            </div>
+     
         </div>
         
 	</div> <!--Close ContactUS Section-->
@@ -500,6 +518,7 @@ border-radius:15px;
 		$( "#npobutton" ).click(function() {
 			$('.stuForm').hide();
 			$('.npoForm').fadeIn(1000);
+
 			$('html, body').animate({
 				scrollTop: $(".formTitle").offset().top -100
 			}, 1000);
@@ -508,6 +527,7 @@ border-radius:15px;
 		$( "#studentbutton" ).click(function() {
 			$('.npoForm').hide();
 			$('.stuForm').fadeIn(1000);
+
 			$('html, body').animate({
 				scrollTop: $(".formTitle").offset().top -100
 			}, 1000);
