@@ -150,7 +150,7 @@ border-radius:15px;
     background-color: #8AC6D0;
     border: none;
     color: white;
-    padding: 15px 100px;
+    padding: 15px 70px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -210,16 +210,17 @@ border-radius:15px;
 
   
     
-    <div class="row About" style="padding-bottom:50px;"> <!--About section-->
+    <div class="row About" style="padding-top:50px;padding-bottom:50px;"> <!--About section-->
 		<div class="col-lg-10 col-md-offset-1">
-        	<div class="row"><!--About row-->
+        <!--About us title
+        	<div class="row">
             	<div class="col-lg-10">
             		<div class="col-lg-8 col-md-offset-2" style="padding-bottom:20px; padding-top:20px;">
             			<h1 style="font-size:400%; font-family:'JosefinSans Regular';">About Us</h1>	
                 	</div>
             	</div>
-            </div><!--Close about row-->
-            
+            </div>
+            -->
             <div class="row"> <!--Picture and description row-->
             	<div class="col-lg-6 text-center"> <!--Image column-->
  					<img src="Granthall.JPG" style="border:2px solid black; border-radius: 5px; margin-top: 10px; margin-bottom: 10px;" class="img-responsive center-block">
@@ -255,7 +256,7 @@ border-radius:15px;
                 
             				<div class="col-lg-4  col-md-12 col-sm-12 col-xs-12"><!--EstablishAConnection Section-->
                					
-             					<div style="background:rgba(255,255,255,0.9);border-style:solid;border-color:blue;border-radius:25px;margin-top:10px;margin-bottom:10px;">
+             					<div style="background:rgba(255,255,255,0.9);border-style:solid;border-color:blue;border-radius:25px;margin-top:10px;margin-bottom:10px;height:100%;">
           
 									<div class="row text-center" style="margin-left:5px;margin-right:5px;">
             							<h2 style="font-family:'JosefinSans Regular';">Establish a connection</h2>
@@ -408,15 +409,15 @@ border-radius:15px;
                 <h1>Hey Developers' Foundation Queen's team! I am:</h1>
                 </div>
 				<div class="row">
-                	<div class="col-lg-8 col-md-offset-2">
+                	<div class="col-lg-8  col-md-8 col-md-offset-2">
                     <div class="row">
                     
-            		<div class="col-lg-6 col-sm-6 text-center" style="padding-top:20px;padding-bottom:20px;">
-                	<button type="button" class="formbutton" id="npobutton">An NPO</button>
+            		<div class="col-lg-6 col-md-12 col-sm-12 text-center" style="padding-top:10px;padding-bottom:10px;">
+                	<button type="button" class="formbutton btn btn-lg" id="npobutton">An NPO</button>
                	 	</div>
                 
-               		<div class="col-lg-6 col-sm-6 text-center" style="padding-top:20px;padding-bottom:20px;">
-                	<button type="button" class="formbutton" id="studentbutton">A Student</button>
+               		<div class="col-lg-6 col-md-12 col-sm-12 text-center" style="padding-top:10px;padding-bottom:10px;">
+                	<button type="button" class="formbutton btn btn-lg" id="studentbutton">A Student</button>
                 	</div>
                     
                     </div>
@@ -427,14 +428,14 @@ border-radius:15px;
                 <div class="col-lg-12">
                 
             	<form action="" class="mainWrap npoForm form-email" method="post" data-form-type="nob">
-  				<input placeholder="Name (NPO)" type="text" class="name form-input-name" />
+  				<input placeholder="Name of the NPO you represent" type="text" class="name form-input-name" />
   				<input placeholder="Email Address" type="email" class="email form-input-email" />
   				<textarea placeholder="Enter your message" class="mainArea form-input-message"></textarea>
   				<button class="bigBtn"><i class="fa fa-inbox"></i> Send your Message</button>
 				</form>
                 
                 <form action="" class="mainWrap stuForm form-email" method="post" data-form-type="nob">
-  				<input placeholder="Name (Student)" type="text" class="name form-input-name" />
+  				<input placeholder="Student name" type="text" class="name form-input-name" />
   				<input placeholder="Email Address" type="email" class="email form-input-email" />
   				<textarea placeholder="Enter your message" class="mainArea form-input-message"></textarea>
   				<button class="bigBtn"><i class="fa fa-inbox"></i> Send your Message</button>
@@ -520,7 +521,7 @@ border-radius:15px;
 			$('.npoForm').fadeIn(1000);
 
 			$('html, body').animate({
-				scrollTop: $(".formTitle").offset().top -100
+				scrollTop: $(".npoForm").offset().top -100
 			}, 1000);
 		});
 	
@@ -529,7 +530,7 @@ border-radius:15px;
 			$('.stuForm').fadeIn(1000);
 
 			$('html, body').animate({
-				scrollTop: $(".formTitle").offset().top -100
+				scrollTop: $(".stuForm").offset().top -100
 			}, 1000);
 		});
 		
