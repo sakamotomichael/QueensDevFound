@@ -201,7 +201,7 @@ border-radius:15px;
     			<div class="col-lg-12">
                 	<div id="large-header" class="large-header">
                     <canvas id="demo-canvas"></canvas>
-                    <h1 class="main-title"><b>Developers' Foundation</b><br />Queen's Chapter</span></h1>
+                    <h1 class="main-title" style="background:rgba(0,0,150,0.3);"><b>Developers' Foundation</b><br />Queen's Chapter</span></h1>
                 	</div>
             	</div>           
 			</div>
@@ -256,7 +256,7 @@ border-radius:15px;
                 
             				<div class="col-lg-4  col-md-12 col-sm-12 col-xs-12"><!--EstablishAConnection Section-->
                					
-             					<div style="background:rgba(255,255,255,0.9);border-style:solid;border-color:blue;border-radius:25px;margin-top:10px;margin-bottom:10px;height:100%;">
+             					<div style="background:rgba(255,255,255,0.9);border-style:solid;border-color:blue;border-radius:25px;margin-top:10px;margin-bottom:10px;height:100%;" id="panel1">
           
 									<div class="row text-center" style="margin-left:5px;margin-right:5px;">
             							<h2 style="font-family:'JosefinSans Regular';">Establish a connection</h2>
@@ -278,7 +278,7 @@ border-radius:15px;
                             
                             <div class="col-lg-4  col-md-12 col-sm-12 col-xs-12"><!--We create your website Section-->
                					
-             					<div style="background:rgba(255,255,255,0.9);border-style:solid;border-color:yellow;border-radius:25px;margin-top:10px;margin-bottom:10px;">
+             					<div style="background:rgba(255,255,255,0.9);border-style:solid;border-color:yellow;border-radius:25px;margin-top:10px;margin-bottom:10px;" id="panel2">
           
 									<div class="row text-center" style="margin-left:5px;margin-right:5px;">
             							<h2 style="font-family:'JosefinSans Regular';">We create your website</h2>
@@ -301,7 +301,7 @@ border-radius:15px;
                             
                             <div class="col-lg-4  col-md-12 col-sm-12 col-xs-12"><!--YourSiteWillBeHosted Section-->
                					
-             					<div style="background:rgba(255,255,255,0.9);border-style:solid;border-color:red;border-radius:25px;margin-top:10px;margin-bottom:10px;">
+             					<div style="background:rgba(255,255,255,0.9);border-style:solid;border-color:red;border-radius:25px;margin-top:10px;margin-bottom:10px;" id="panel3">
           
 									<div class="row text-center" style="margin-left:5px;margin-right:5px;">
             							<h2 style="font-family:'JosefinSans Regular';">Your site will be hosted</h2>
@@ -534,7 +534,35 @@ border-radius:15px;
 			}, 1000);
 		});
 		
+		/*
+		window.onload = function(){
+			var panel1Height = document.getElementById('panel1').clientHeight;
+			var panel2Height = document.getElementById('panel2').clientHeight;
+			var panel3Height = document.getElementById('panel3').clientHeight;
 			
+			var max = Math.max(panel1Height, panel2Height, panel3Height);
+			
+			document.getElementById('panel1').style.height= +max+ 'px';
+			document.getElementById('panel2').style.height= +max+ 'px';
+			document.getElementById('panel3').style.height= +max+ 'px';
+			
+			
+		}
+		
+		window.onresize= function(){
+			var panel1Height = document.getElementById('panel1').clientHeight;
+			var panel2Height = document.getElementById('panel2').clientHeight;
+			var panel3Height = document.getElementById('panel3').clientHeight;
+			
+			var max = Math.max(panel1Height, panel2Height, panel3Height);
+			
+			document.getElementById('panel1').style.height= +max+ 'px';
+			document.getElementById('panel2').style.height= +max+ 'px';
+			document.getElementById('panel3').style.height= +max+ 'px';
+			
+			
+		}
+		*/
 	});
 	
 </script>
