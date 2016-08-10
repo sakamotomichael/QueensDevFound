@@ -487,26 +487,26 @@ border-radius:15px;
 		
 		$("#button1").click(function() {
 			$('html, body').animate({
-				scrollTop: $(".About").offset().top -50
+				scrollTop: $(".About").offset().top -70
 			}, 1500);
 		});
 		
 		$("#button2").click(function() {
 			$('html, body').animate({
-				scrollTop: $(".WhatWeDo").offset().top -100
+				scrollTop: $(".WhatWeDo").offset().top -70
 			}, 1500);
 		});
 		
 		
 		$("#button3").click(function() {
 			$('html, body').animate({
-				scrollTop: $(".Portfolio").offset().top -100
+				scrollTop: $(".Portfolio").offset().top -70
 			}, 1500);
 		});
 		
 		$("#button4").click(function() {
 			$('html, body').animate({
-				scrollTop: $(".Contact").offset().top -50
+				scrollTop: $(".Contact").offset().top -70
 			}, 1500);
 		});
 		
@@ -521,7 +521,7 @@ border-radius:15px;
 			$('.npoForm').fadeIn(1000);
 
 			$('html, body').animate({
-				scrollTop: $(".npoForm").offset().top -100
+				scrollTop: $(".npoForm").offset().top -70
 			}, 1000);
 		});
 	
@@ -530,7 +530,7 @@ border-radius:15px;
 			$('.stuForm').fadeIn(1000);
 
 			$('html, body').animate({
-				scrollTop: $(".stuForm").offset().top -100
+				scrollTop: $(".stuForm").offset().top -70
 			}, 1000);
 		});
 		
