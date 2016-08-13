@@ -13,7 +13,26 @@
 <link rel="stylesheet" type="text/css" href="HeaderEffect/component.css" />
 
 <link rel="icon" type="image/ico" href="DFFavicon.ico">
+<style>
+.loader{
+	background:url(light_wool.png);
+}
 
+.loadermessage{
+	position:absolute;
+	margin:0;
+	padding:0;
+	color:#646968;
+	text-align:center;
+	top:50%;
+	left:50%;
+	-webkit-transform:translate3d(-50%,-50%,0);
+	transform:translate3d(-50%,-50%,0);
+	font-family:"JosefinSans Regular";
+	font-size:250%;
+	font-weight:bold;
+}
+</style>
 </head>
 
 <body style="overflow-x:hidden;">
@@ -24,7 +43,6 @@
         <br />
         <div>
         <img src="loader.svg" />
-        
         </div>
 	</div>    
 </div>
