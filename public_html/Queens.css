@@ -211,6 +211,7 @@ border-radius:15px;
 .loader{
 	background:url(light_wool.png);
 }
+
 .loadermessage{
 	position:absolute;
 	margin:0;
