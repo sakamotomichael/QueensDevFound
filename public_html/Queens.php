@@ -17,10 +17,35 @@
 </head>
 
 <body style="overflow-x:hidden;">
-<div class="container-fluid">
 
+<div class="loader" style="width:100%; height: 100vh;">
+<!--
+     <table style="width:100%; height: 100vh;">
+     	<tr style="vertical-align: center">
+			<td class="loadermessage">
+                 Hey! Welcome to Developers' Foundation Queen's Chapter!
+			</td>
+		</tr>
+        <tr style="vertical-align: center">
+			<td>
+                 <div class="loadercircle"></div>
+			</td>
+		</tr>
+      </table>-->
+	<div class="loadermessage">
+		Hey there! Welcome to Developers' Foundation Queen's Chapter!
+        <br />
+        <div>
+        <img src="loader.svg" />
+        <!--<div class="loadercircle"></div>-->
+        </div>
+	</div>
+      
+</div>
 
-    <div class="row" style="background-image:url(QueensHeader.jpg);background-repeat: no-repeat;
+<div class="container-fluid fullpage" style="display:none;">
+
+  <div class="row" style="background-image:url(QueensHeader.jpg);background-repeat: no-repeat;
 	background-size:cover;height:100vh;"> <!--Navbar and titleImage row-->
     	<div class="navbar navbar-default navbar-fixed-top" style="background-color:white;padding-top:10px;padding-bottom:10px;">
             	<div class="container">
@@ -96,7 +121,7 @@
         <div class="text-center">
         <div class="container">
             <div class="section-title center">
-                <h2 style="font-size:400%;color:white;font-family:'JosefinSans Regular';">What we do</h2>
+                <h2 style="font-size:400%;color:white;font-family:'JosefinSans Regular';">What We Do</h2>
                 <div class="line">
                     <hr>
                 </div>
@@ -309,6 +334,12 @@
 <script>
 	$(document).ready(function(){
 		
+		setTimeout(function(){
+    	$('.loader').hide();
+		$('.fullpage').fadeIn(1500);
+		}, 4000);
+		
+		
 
 		<!-- SCROLL TO -->
 		
@@ -360,7 +391,7 @@
 				scrollTop: $(".stuForm").offset().top -70
 			}, 1000);
 		});
-
+		
 	});
 	
 </script>

@@ -23,7 +23,7 @@
 
         // create particles
         triangles = [];
-        for(var x = 0; x < 300; x++) {
+        for(var x = 0; x < 100; x++) {
             addTriangle(x*10);
         }
     }
