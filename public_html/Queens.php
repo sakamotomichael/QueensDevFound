@@ -19,28 +19,14 @@
 <body style="overflow-x:hidden;">
 
 <div class="loader" style="width:100%; height: 100vh;">
-<!--
-     <table style="width:100%; height: 100vh;">
-     	<tr style="vertical-align: center">
-			<td class="loadermessage">
-                 Hey! Welcome to Developers' Foundation Queen's Chapter!
-			</td>
-		</tr>
-        <tr style="vertical-align: center">
-			<td>
-                 <div class="loadercircle"></div>
-			</td>
-		</tr>
-      </table>-->
 	<div class="loadermessage">
 		Hey there! Welcome to Developers' Foundation Queen's Chapter!
         <br />
         <div>
         <img src="loader.svg" />
-        <!--<div class="loadercircle"></div>-->
+        
         </div>
-	</div>
-      
+	</div>    
 </div>
 
 <div class="container-fluid fullpage" style="display:none;">
