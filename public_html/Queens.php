@@ -67,7 +67,7 @@
                     <div class="collapse navbar-collapse navHeaderCollapse">
                     <ul class="nav navbar-nav navbar-right" style="font-family:'JosefinSans Regular';font-size:150%">
                    		<li><a href="#" id="button1" >About</a></li>
-                        <li><a href="#" id="button2">What we do</a></li>
+                        <li><a href="#" id="button2">What We Do</a></li>
                         <li><a href="#" id="button3">Portfolio</a></li>
                         <li><a href="#" id="button4">Contact</a></li>
                     </ul>
@@ -91,7 +91,7 @@
 
   
     
-    <div class="row About" style="padding-top:50px;padding-bottom:50px;"> <!--About section-->
+    <div class="row aboutSection" style="padding-top:50px;padding-bottom:50px;"> <!--About section-->
 		<div class="col-lg-10 col-md-offset-1">
         <!--About us title
         	<div class="row">
@@ -196,7 +196,7 @@
 			</div><!--Close Portfolio title-->
             
             <div class="row"> <!--Portfolio info-->
-            	This section is under construction, check back soon!
+            	
                 <ul class="grid cs-style-3">
 					<li>
 						<figure>

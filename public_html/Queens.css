@@ -106,7 +106,7 @@ border-radius:15px;
   margin-top:20px;
   font-size:2em;
   font-family:"JosefinSans Regular";
-  background:#8AC6D0;
+  background:#B0EBFF;
   color:#fff;
   cursor:pointer;
 }
@@ -137,7 +137,7 @@ border-radius:15px;
 }
 
 .formbutton{
-    background-color: #8AC6D0;
+    background-color: #B0EBFF;
     border: none;
     color: white;
     padding: 15px 70px;
@@ -166,7 +166,7 @@ border-radius:15px;
     padding: 20px !important;
     border-top-left-radius: 10px !important;
     border-top-right-radius: 10px !important;
-    border: solid 5px #00FFFF !important;
+    border: solid 5px #B0EBFF !important;
     border-bottom: none !important;
 }
 
@@ -175,7 +175,7 @@ border-radius:15px;
     color: #fff !important;
     font-size: 16px !important;
     padding: 3px !important;
-    border: solid 5px #00FFFF !important;
+    border: solid 5px #B0EBFF !important;
     border-top: none !important;
 }
 
@@ -188,7 +188,7 @@ border-radius:15px;
 }
 
 .panel-body-landing {
-    border: solid 5px #00FFFF !important;
+    border: solid 5px #B0EBFF !important;
     border-top: none !important;
     border-bottom: none !important;
 	font-size:16px;
@@ -196,7 +196,7 @@ border-radius:15px;
 }
 
 .panel-footer-landing {
-    border: solid 5px #00FFFF !important;
+    border: solid 5px #B0EBFF !important;
     border-bottom-left-radius: 10px !important;
     border-bottom-right-radius: 10px !important;
     border-top: none !important;
@@ -206,5 +206,6 @@ border-radius:15px;
 .intro{
 	font-size:120%;
 }
+
 
 
