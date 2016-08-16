@@ -13,6 +13,7 @@
 <link rel="stylesheet" type="text/css" href="HeaderEffect/component.css" />
 
 <link rel="icon" type="image/ico" href="DFFavicon.ico">
+<!--
 <style>
 .loader{
 	background:url(light_wool.png);
@@ -33,8 +34,9 @@
 	font-weight:bold;
 }
 </style>
+-->
 </head>
-
+<!--
 <body style="overflow-x:hidden;">
 
 <div class="loader" style="width:100%; height: 100vh;">
@@ -46,12 +48,11 @@
         </div>
 	</div>    
 </div>
+-->
+<div class="container-fluid fullpage">
 
-<div class="container-fluid fullpage" style="display:none;">
-
-  <div class="row" style="background-image:url(QueensHeader.jpg);background-repeat: no-repeat;
-	background-size:cover;height:100vh;"> <!--Navbar and titleImage row-->
-    	<div class="navbar navbar-default navbar-fixed-top" style="background-color:white;padding-top:10px;padding-bottom:10px;">
+  <div class="row" style="height:100vh;background:url(header.jpg);background-repeat: no-repeat;background-size:cover;"> <!--Navbar and titleImage row-->
+    	<div class="navbar navbar-default navbar-fixed-top" style="background-color:#E14658;padding-top:10px;padding-bottom:10px;">
             	<div class="container">
                 	<div class="navbar-header">
                     <a href="#" class="navbar-brand" style="font-family:'JosefinSans Regular';font-size:150%;">
@@ -65,11 +66,11 @@
                     </div>
                     
                     <div class="collapse navbar-collapse navHeaderCollapse">
-                    <ul class="nav navbar-nav navbar-right" style="font-family:'JosefinSans Regular';font-size:150%">
-                   		<li><a href="#" id="button1" >About</a></li>
-                        <li><a href="#" id="button2">What We Do</a></li>
-                        <li><a href="#" id="button3">Portfolio</a></li>
-                        <li><a href="#" id="button4">Contact</a></li>
+                    <ul class="nav navbar-nav navbar-right" style="font-family:'JosefinSans Regular';font-size:150%;">
+                   		<li><a href="#" class="navbutton" id="button1" >About</a></li>
+                        <li><a href="#" class="navbutton" id="button2">What We Do</a></li>
+                        <li><a href="#" class="navbutton" id="button3">Portfolio</a></li>
+                        <li><a href="#" class="navbutton" id="button4">Contact</a></li>
                     </ul>
                         
                     
@@ -82,7 +83,7 @@
     			<div class="col-lg-12">
                 	<div id="large-header" class="large-header">
                     <canvas id="demo-canvas"></canvas>
-                    <h1 class="main-title" style="background:rgba(0,0,150,0.3);"><b>Developers' Foundation</b><br />Queen's Chapter</span></h1>
+                    <h1 class="main-title"><b>Developers' Foundation</b><br />Queen's Chapter</span></h1>
                 	</div>
             	</div>           
 			</div>
@@ -91,20 +92,11 @@
 
   
     
-    <div class="row aboutSection" style="padding-top:50px;padding-bottom:50px;"> <!--About section-->
+    <div class="row" style="background-color:#3F325A; color:white;padding-top:100px;padding-bottom:100px;"> <!--About section-->
 		<div class="col-lg-10 col-md-offset-1">
-        <!--About us title
-        	<div class="row">
-            	<div class="col-lg-10">
-            		<div class="col-lg-8 col-md-offset-2" style="padding-bottom:20px; padding-top:20px;">
-            			<h1 style="font-size:400%; font-family:'JosefinSans Regular';">About Us</h1>	
-                	</div>
-            	</div>
-            </div>
-            -->
             <div class="row"> <!--Picture and description row-->
             	<div class="col-lg-6 text-center"> <!--Image column-->
- 					<img src="Granthall.JPG" style="border:2px solid black; border-radius: 5px; margin-top: 10px; margin-bottom: 10px;" class="img-responsive center-block">
+ 					<img src="Granthall.JPG" style="border:2px solid white; border-radius: 2px; margin-top: 10px; margin-bottom: 10px;" class="img-responsive center-block">
 				</div> <!--Close Image column-->
             
             	<div class="col-lg-6"> <!-- Description column-->
@@ -121,11 +113,11 @@
         </div>
 	</div><!--Close about section-->
     
-    <div class="row WhatWeDo" style="padding-bottom:40px;background:url(wwdbackground2.jpg);background-repeat: no-repeat; background-size:cover;background-position:center;"> 
+    <div class="row WhatWeDo" style="background:url(light_wool.png);padding-top:60px;padding-bottom:100px;"> 
         <div class="text-center">
         <div class="container">
-            <div class="section-title center">
-                <h2 style="font-size:400%;color:white;font-family:'JosefinSans Regular';">What We Do</h2>
+            <div class="section-title center" style="padding-bottom:50px;">
+                <h2 style="font-size:400%;color:#22252C;font-family:'JosefinSans Regular';">What We Do</h2>
                 <div class="line">
                     <hr>
                 </div>
@@ -138,7 +130,7 @@
                             <div class="controle-header panel-heading panel-heading-landing">
                                 <h2 class="services-title panel-title panel-title-landing" style="padding-bottom: 30px">
                                     <b>Connect with us</b></h2>
-                                <span style="font-size:6em; color:#0000FF;" class="glyphicon glyphicon-link"></span>
+                                <span style="font-size:6em; color:#3F3264;" class="glyphicon glyphicon-link"></span>
                             </div>
 
                             <div class="panel-body panel-body-landing">
@@ -154,7 +146,7 @@
                             <div class="controle-header panel-heading panel-heading-landing">
                                 <h2 class="services-title panel-title panel-title-landing" style="padding-bottom: 30px">
                                     <b>We create your site</b></h2>
-                                <span style="font-size:6em; color:#FFFF00" class="glyphicon glyphicon-file"></span>
+                                <span style="font-size:6em; color:#3F3264" class="glyphicon glyphicon-file"></span>
                             </div>
 
                             <div class="panel-body panel-body-landing">
@@ -170,7 +162,7 @@
                             <div class="controle-header panel-heading panel-heading-landing">
                                 <h2 class="services-title panel-title panel-title-landing" style="padding-bottom: 30px">
                                     <b>Your site will be hosted</b></h2>
-                                <span style="font-size:6em; color:#FF0000;" class="glyphicon glyphicon-globe"></span>
+                                <span style="font-size:6em; color:#3F3264;" class="glyphicon glyphicon-globe"></span>
                             </div>
 
                             <div class="panel-body panel-body-landing">
@@ -186,12 +178,12 @@
    	</div><!--Close row-->
     
     
-    <div class="row Portfolio" style="font-family:'JosefinSans Regular'; background:url(light_wool.png);"><!--Portfolio section-->
+    <div class="row Portfolio" style="font-family:'JosefinSans Regular';background-color:#3F3250;"><!--Portfolio section-->
     	<div class="col-lg-8 col-md-8 col-md-offset-2">
         
         	<div class="row"> <!--Portfolio title-->
             	<div style="text-align:center;">
-            		<h1 style="font-size:400%; font-family:'JosefinSans Regular';">Portfolio</h1>	
+            		<h1 style="font-size:400%; font-family:'JosefinSans Regular';color:white;">Portfolio</h1>	
             	</div>
 			</div><!--Close Portfolio title-->
             
@@ -249,20 +241,20 @@
         </div>
     </div> <!--Close portfolio section-->
     
-    <div class="row Contact" style="font-family:'JosefinSans Regular'; padding-bottom:40px;background:url(formbackground4.jpg);background-repeat: no-repeat;background-size:cover;"> <!--ContactUS Section-->
+    <div class="row Contact" style="font-family:'JosefinSans Regular'; padding-bottom:40px;"> <!--ContactUS Section-->
     
 		<div class="col-lg-8 col-md-8 col-md-offset-2">
         
         	<div class="row">
             <div class="col-lg-12 text-center">
-        	<h1 style="font-size:350%; padding-bottom:20px; color:white;text-shadow: 1px 0 0 #CCC, 0 -1px 0 #CCC, 0 1px 0 #CCC, -1px 0 0 #CCC;"><b>Send us a message - let's initiate a connection.</b></h1>
+        	<h1 style="font-size:350%; padding-bottom:20px; color:#3F3250;"><b>Send us a message - let's initiate a connection.</b></h1>
             </div>
             </div>
             
-            <div class="row" style="background:url(cream_dust.png);border-radius:25px;">
+            <div class="row" style="background:url(cream_dust.png);border-style:solid;border-color:#E14658;border-radius:5px;">
 			<div class="col-lg-12">
             	<div class="row text-center formTitle">
-                <h1>Hey Developers' Foundation Queen's team! I am:</h1>
+                <h1 style="color:#3F3250;">Hey Developers' Foundation Queen's team! I am:</h1>
                 </div>
 				<div class="row">
                 	<div class="col-lg-8  col-md-8 col-md-offset-2">
@@ -301,7 +293,7 @@
                 
                 <div class="row" style="padding-bottom:40px;">
             	<div class="col-lg-12 text-center">
-                <p class="moreInfo" style="font-size:150%;color:black;">You can also visit the <a href="https://developersfoundation.ca" target="_blank">main Developers' Foundation website</a> for more information about Developers' Foundation in general.</p>  
+                <p class="moreInfo" style="font-size:150%;color:#3F3250;">You can also visit the <a href="https://developersfoundation.ca" target="_blank">main Developers' Foundation website</a> for more information about Developers' Foundation in general.</p>  
                 </div>
                 </div>  
        		</div>
@@ -338,11 +330,12 @@
 <script>
 	$(document).ready(function(){
 		
+		/*
 		setTimeout(function(){
     	$('.loader').hide();
 		$('.fullpage').fadeIn(1500);
 		}, 4000);
-		
+		*/
 		
 
 		<!-- SCROLL TO -->

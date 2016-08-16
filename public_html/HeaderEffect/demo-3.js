@@ -1,7 +1,7 @@
 (function() {
 
     var width, height, largeHeader, canvas, ctx, triangles, target, animateHeader = true;
-    var colors = ['255,0,0', '0,0,255', '255,255,0'];
+    var colors = ['225,70,88', '102,0,102', '255,255,255'];
 
     // Main
     initHeader();
@@ -23,8 +23,8 @@
 
         // create particles
         triangles = [];
-        for(var x = 0; x < 250; x++) {
-            addTriangle(x*10);
+        for(var x = 0; x < 150; x++) {
+            addTriangle(x*100);
         }
     }
 

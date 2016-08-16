@@ -11,23 +11,16 @@
 	src: url('JosefinSans-Regular.ttf') format('truetype');
 }
 
+.navbar-default .navbar-brand {
+    color: white;
+}
+.nav.navbar-nav.navbar-right a {
+    color: white;
+}
+
 .WWDtext{
 	font-size:150%;
 	font-family: "JosefinSans Regular";
-}
-
-.button{
-	background-color: #F7F7F7;
-	border: none;
-	color: #63768D;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size:150%;
-	font-family: "JosefinSans Regular";
-	border-radius: 2px;
-	margin-top:10px;
 }
 
 
@@ -106,7 +99,7 @@ border-radius:15px;
   margin-top:20px;
   font-size:2em;
   font-family:"JosefinSans Regular";
-  background:#B0EBFF;
+  background:#3F3250;
   color:#fff;
   cursor:pointer;
 }
@@ -137,7 +130,7 @@ border-radius:15px;
 }
 
 .formbutton{
-    background-color: #B0EBFF;
+    background-color: #3F3250;
     border: none;
     color: white;
     padding: 15px 70px;
@@ -162,20 +155,20 @@ border-radius:15px;
 }
 
 .panel-heading-landing {
-    background-color:rgba(255,255,255,0.9);
+    background-color:rgba(255,255,255,0.5);
     padding: 20px !important;
     border-top-left-radius: 10px !important;
     border-top-right-radius: 10px !important;
-    border: solid 5px #B0EBFF !important;
+    border: solid 5px #E1466E !important;
     border-bottom: none !important;
 }
 
 .panel-heading-landing-box {
-    background-color:rgba(255,255,255,0.9);
+    background-color:rgba(255,255,255,0.5);
     color: #fff !important;
     font-size: 16px !important;
     padding: 3px !important;
-    border: solid 5px #B0EBFF !important;
+    border: solid 5px #E1466E !important;
     border-top: none !important;
 }
 
@@ -188,19 +181,19 @@ border-radius:15px;
 }
 
 .panel-body-landing {
-    border: solid 5px #B0EBFF !important;
+    border: solid 5px #E1466E !important;
     border-top: none !important;
     border-bottom: none !important;
 	font-size:16px;
-	background-color:rgba(255,255,255,0.9);
+	background-color:rgba(255,255,255,0.5);
 }
 
 .panel-footer-landing {
-    border: solid 5px #B0EBFF !important;
+    border: solid 5px #E14664 !important;
     border-bottom-left-radius: 10px !important;
     border-bottom-right-radius: 10px !important;
     border-top: none !important;
-	background-color:rgba(255,255,255,0.9);
+	background-color:rgba(255,255,255,0.5);
 }
 
 .intro{
