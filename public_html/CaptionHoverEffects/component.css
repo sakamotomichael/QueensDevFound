@@ -1,6 +1,6 @@
 .grid {
 	padding: 20px 20px 100px 20px;
-	max-width: 1300px;
+	max-width: 1600px;
 	margin: 0 auto;
 	list-style: none;
 	text-align: center;
@@ -8,7 +8,7 @@
 
 .grid li {
 	display: inline-block;
-	width: 440px;
+	width: 500px;
 	margin: 0;
 	padding: 20px;
 	text-align: left;
@@ -31,7 +31,7 @@
 	top: 0;
 	left: 0;
 	padding: 20px;
-	background: #E14658;
+	background: #E03C46;
 	color: #fff;
 }
 
@@ -44,11 +44,12 @@
 
 .grid figcaption a {
 	text-align: center;
-	padding: 5px 10px;
+	font-size:16px;
+	padding: 10px 20px;
 	border-radius: 2px;
 	display: inline-block;
 	background: #fff;
-	color: #E14658;
+	color: #E03C46;
 }
 
 /* Individual Caption Styles */

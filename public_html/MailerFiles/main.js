@@ -36,9 +36,9 @@ $(document).ready(function () {
                 'msg': msg,
                 'msgHTML': msgHTML
             });
-			console.log(sendData);
+
             $.ajax({
-                url: 'MailerFiles/mailer.php',
+                url: 'assets/mail/mailer.php',
                 crossDomain: false,
                 data: sendData,
                 method: "POST",
@@ -56,7 +56,7 @@ $(document).ready(function () {
                         nameField.val("");
                         messageField.val("");
                         submitButton.html("Received");
-                        //submitButton.addClass("btn-success");
+                        submitButton.addClass("btn-success");
                     } else {
                         // Throw error message
                         submitButton.html("Sorry an error occured");
@@ -69,7 +69,7 @@ $(document).ready(function () {
                     // Throw error message
                     submitButton.html("Sorry an error occured");
                     submitButton.removeClass("btn-primary");
-                    //submitButton.addClass("btn-danger");
+                    submitButton.addClass("btn-danger");
                     submitButton.prop("disabled", false);
                 }
             });

@@ -11,12 +11,33 @@
 	src: url('JosefinSans-Regular.ttf') format('truetype');
 }
 
-.navbar-default .navbar-brand {
+.navbar-brand {
     color: white;
 }
 .nav.navbar-nav.navbar-right a {
     color: white;
 }
+
+.navbar-inner {
+    background:transparent;
+}
+
+.navbar .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.nav > li > a:hover{
+    background-color:#16071C;
+}
+
+.nav > li > a:active{
+    background-color:#16071C;
+}
+
+.nav > li > a:focus{
+    background-color:#16071C;
+}
+
 
 .WWDtext{
 	font-size:150%;
@@ -99,8 +120,8 @@ border-radius:15px;
   margin-top:20px;
   font-size:2em;
   font-family:"JosefinSans Regular";
-  background:#3F3250;
-  color:#fff;
+  background:white;
+  color:black;
   cursor:pointer;
 }
 
@@ -130,14 +151,14 @@ border-radius:15px;
 }
 
 .formbutton{
-    background-color: #3F3250;
+    background-color:#F55152;
     border: none;
     color: white;
     padding: 15px 70px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 2em;
+    font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
 	border-radius:5px;
@@ -155,20 +176,17 @@ border-radius:15px;
 }
 
 .panel-heading-landing {
-    background-color:rgba(255,255,255,0.5);
     padding: 20px !important;
-    border-top-left-radius: 10px !important;
-    border-top-right-radius: 10px !important;
-    border: solid 5px #E1466E !important;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    border: solid 3px #554971 !important;
     border-bottom: none !important;
 }
 
 .panel-heading-landing-box {
-    background-color:rgba(255,255,255,0.5);
     color: #fff !important;
     font-size: 16px !important;
     padding: 3px !important;
-    border: solid 5px #E1466E !important;
     border-top: none !important;
 }
 
@@ -181,24 +199,59 @@ border-radius:15px;
 }
 
 .panel-body-landing {
-    border: solid 5px #E1466E !important;
+	
+    border: solid 3px #554971 !important;
     border-top: none !important;
     border-bottom: none !important;
 	font-size:16px;
-	background-color:rgba(255,255,255,0.5);
 }
 
 .panel-footer-landing {
-    border: solid 5px #E14664 !important;
-    border-bottom-left-radius: 10px !important;
-    border-bottom-right-radius: 10px !important;
+    border: solid 3px #554971 !important;
+    border-bottom-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
     border-top: none !important;
-	background-color:rgba(255,255,255,0.5);
+	background:none;
 }
 
 .intro{
 	font-size:120%;
 }
 
+.modalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 80vw;;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 2px;
+	background:#16071C;
+}
+
+.close {
+	color:white;
+}
 
 
+.link{
+	color:white;
+}

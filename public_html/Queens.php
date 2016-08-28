@@ -11,6 +11,7 @@
 <link rel="stylesheet" type="text/css" href="Queens.css" />
 <link rel="stylesheet" type="text/css" href="CaptionHoverEffects/component.css" />
 <link rel="stylesheet" type="text/css" href="HeaderEffect/component.css" />
+<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
 
 <link rel="icon" type="image/ico" href="DFFavicon.ico">
 <!--
@@ -36,9 +37,9 @@
 </style>
 -->
 </head>
-<!--
-<body style="overflow-x:hidden;">
 
+<body style="overflow-x:hidden;">
+<!--
 <div class="loader" style="width:100%; height: 100vh;">
 	<div class="loadermessage">
 		Hey there! Welcome to Developers' Foundation Queen's Chapter!
@@ -51,14 +52,14 @@
 -->
 <div class="container-fluid fullpage">
 
-  <div class="row" style="height:100vh;background:url(header.jpg);background-repeat: no-repeat;background-size:cover;"> <!--Navbar and titleImage row-->
-    	<div class="navbar navbar-default navbar-fixed-top" style="background-color:#E14658;padding-top:10px;padding-bottom:10px;">
+  <div class="row header" style="height:100vh;background:url(header.jpg);background-repeat: no-repeat;background-size:cover;"> <!--Navbar and titleImage row-->
+    	<div class="navbar navbar-fixed-top" style="padding-top:10px;padding-bottom:10px;">
             	<div class="container">
                 	<div class="navbar-header">
-                    <a href="#" class="navbar-brand" style="font-family:'JosefinSans Regular';font-size:150%;">
+                    <div class="navbar-brand" style="font-family:'JosefinSans Regular';font-size:150%;">
                     Developer's Foundation
-                    </a>
-                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                    </div>
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse" style="background-color:#16071C;">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -70,7 +71,7 @@
                    		<li><a href="#" class="navbutton" id="button1" >About</a></li>
                         <li><a href="#" class="navbutton" id="button2">What We Do</a></li>
                         <li><a href="#" class="navbutton" id="button3">Portfolio</a></li>
-                        <li><a href="#" class="navbutton" id="button4">Contact</a></li>
+                        <li><a href="#" class="navbutton" id="button4">Apply</a></li>
                     </ul>
                         
                     
@@ -92,45 +93,49 @@
 
   
     
-    <div class="row" style="background-color:#3F325A; color:white;padding-top:100px;padding-bottom:100px;"> <!--About section-->
+    <div class="row About" style="background-color:#16071C; color:white;padding-top:100px;padding-bottom:100px;"> <!--About section-->
 		<div class="col-lg-10 col-md-offset-1">
             <div class="row"> <!--Picture and description row-->
             	<div class="col-lg-6 text-center"> <!--Image column-->
- 					<img src="Granthall.JPG" style="border:2px solid white; border-radius: 2px; margin-top: 10px; margin-bottom: 10px;" class="img-responsive center-block">
+ 					<img src="aboutimg.jpg" style="border:2px solid white; border-radius: 2px; margin-top: 10px; margin-bottom: 10px; height:300px;width:500px;" class="img-responsive center-block">
 				</div> <!--Close Image column-->
             
             	<div class="col-lg-6"> <!-- Description column-->
-            		<div class="col-lg-10" style="font-size:150%; font-family:'JosefinSans Regular'; text-align:justify;padding-top:20px;padding-bottom:20px;">
-            			<h2><b>Every company deserves to be recognized</b></h2>
+            		<div class="col-lg-10" style="font-size:150%;text-align:justify;padding-top:20px;padding-bottom:20px;">
+            			<h2 style="font-family:'JosefinSans Regular'";><b>Every company deserves to be recognized</b></h2>
             			<br />
+                        <div style="font-family:'JosefinSans Regular';">
         				<p> We're a team of students and aspiring web designers which serve as a subteam for Developers' Foundation. 			</p>
 						<p> In charge of operations at Queen's University and the city of Kingston, we primarily seek out NPOs in the city and assist them in establishing an online presence.
 						</p>	
-                        
+                        </div>
 					</div>
             	</div> <!-- Close Description column-->
             </div>     
         </div>
 	</div><!--Close about section-->
     
-    <div class="row WhatWeDo" style="background:url(light_wool.png);padding-top:60px;padding-bottom:100px;"> 
+    <div class="row WhatWeDo" style="background:url(whatwedobackground.jpg);background-repeat: no-repeat;background-size:cover;background-position:center;height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+	padding-top:60px;padding-bottom:100px;"> 
         <div class="text-center">
         <div class="container">
             <div class="section-title center" style="padding-bottom:50px;">
-                <h2 style="font-size:400%;color:#22252C;font-family:'JosefinSans Regular';">What We Do</h2>
+                <h2 style="font-size:400%;color:white;font-family:'JosefinSans Regular';"><b>What We Do</b></h2>
                 <div class="line">
                     <hr>
                 </div>
                
             </div>
-            <div class="row">
+            <div class="row" style="color:white;">
                 <div class="col-md-4">
                     <div class="pricing-table">
                         <div class="panel" style="border:none;">
                             <div class="controle-header panel-heading panel-heading-landing">
                                 <h2 class="services-title panel-title panel-title-landing" style="padding-bottom: 30px">
                                     <b>Connect with us</b></h2>
-                                <span style="font-size:6em; color:#3F3264;" class="glyphicon glyphicon-link"></span>
+                                <span style="font-size:5em; color:#F55152;" class="glyphicon glyphicon-link"></span>
                             </div>
 
                             <div class="panel-body panel-body-landing">
@@ -146,7 +151,7 @@
                             <div class="controle-header panel-heading panel-heading-landing">
                                 <h2 class="services-title panel-title panel-title-landing" style="padding-bottom: 30px">
                                     <b>We create your site</b></h2>
-                                <span style="font-size:6em; color:#3F3264" class="glyphicon glyphicon-file"></span>
+                                <span style="font-size:5em; color:#F55152;" class="glyphicon glyphicon-file"></span>
                             </div>
 
                             <div class="panel-body panel-body-landing">
@@ -162,7 +167,7 @@
                             <div class="controle-header panel-heading panel-heading-landing">
                                 <h2 class="services-title panel-title panel-title-landing" style="padding-bottom: 30px">
                                     <b>Your site will be hosted</b></h2>
-                                <span style="font-size:6em; color:#3F3264;" class="glyphicon glyphicon-globe"></span>
+                                <span style="font-size:5em; color:#F55152;" class="glyphicon glyphicon-globe"></span>
                             </div>
 
                             <div class="panel-body panel-body-landing">
@@ -178,16 +183,13 @@
    	</div><!--Close row-->
     
     
-    <div class="row Portfolio" style="font-family:'JosefinSans Regular';background-color:#3F3250;"><!--Portfolio section-->
-    	<div class="col-lg-8 col-md-8 col-md-offset-2">
-        
-        	<div class="row"> <!--Portfolio title-->
-            	<div style="text-align:center;">
-            		<h1 style="font-size:400%; font-family:'JosefinSans Regular';color:white;">Portfolio</h1>	
-            	</div>
-			</div><!--Close Portfolio title-->
+    <div class="row Portfolio" style="font-family:'JosefinSans Regular';background-color:#16071C;"><!--Portfolio section-->       
+        <div class="row"> <!--Portfolio title-->
+            <div style="text-align:center; margin-top:60px;">
+            	<h1 style="font-size:400%; font-family:'JosefinSans Regular';color:white;">Portfolio</h1>	
+            </div>
+		</div><!--Close Portfolio title-->
             
-            <div class="row"> <!--Portfolio info-->
             	
                 <ul class="grid cs-style-3">
 					<li>
@@ -195,7 +197,7 @@
 							<img src="blue.jpg" alt="img01">
 							<figcaption>
 								<h3>Site 1</h3>
-								<span>Coming soon!</span>
+								<span>Description</span>
 								<a href="#">Visit</a>
 							</figcaption>
 						</figure>
@@ -203,10 +205,10 @@
 					
                     <li>
 						<figure>
-							<img src="blue.jpg" alt="img01">
+							<img src="blue.jpg" alt="img02">
 							<figcaption>
 								<h3>Site 2</h3>
-								<span>Coming soon</span>
+								<span>Description</span>
 								<a href="#">Visit</a>
 							</figcaption>
 						</figure>
@@ -214,10 +216,10 @@
                     
                     <li>
 						<figure>
-							<img src="blue.jpg" alt="img01">
+							<img src="blue.jpg" alt="img03">
 							<figcaption>
 								<h3>Site 3</h3>
-								<span>Coming soon</span>
+								<span>Description</span>
 								<a href="#">Visit</a>
 							</figcaption>
 						</figure>
@@ -225,77 +227,102 @@
                     
                     <li>
 						<figure>
-							<img src="blue.jpg" alt="img01">
+							<img src="blue.jpg" alt="img04">
 							<figcaption>
 								<h3>Site 4</h3>
-								<span>Coming soon</span>
+								<span>Description</span>
+								<a href="#">Visit</a>
+							</figcaption>
+						</figure>
+					</li>
+                    
+                    <li>
+						<figure>
+							<img src="blue.jpg" alt="img05">
+							<figcaption>
+								<h3>Site 5</h3>
+								<span>Description</span>
+								<a href="#">Visit</a>
+							</figcaption>
+						</figure>
+					</li>
+                    
+                    <li>
+						<figure>
+							<img src="blue.jpg" alt="img06">
+							<figcaption>
+								<h3>Site 6</h3>
+								<span>Description</span>
 								<a href="#">Visit</a>
 							</figcaption>
 						</figure>
 					</li>
 
 				</ul>
-                
-            </div> <!--Close Portfolio info-->
       
-        </div>
+        
     </div> <!--Close portfolio section-->
     
-    <div class="row Contact" style="font-family:'JosefinSans Regular'; padding-bottom:40px;"> <!--ContactUS Section-->
+    <div class="row Contact" style="font-family:'JosefinSans Regular'; padding-bottom:40px;background:url(formbackground.jpg);background-repeat: no-repeat;background-size:cover;
+    background-position:center;
+    height:100%;
+    background-attachment: fixed;"> <!--ContactUS Section-->
     
-		<div class="col-lg-8 col-md-8 col-md-offset-2">
+		<div class="col-lg-10 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
         
         	<div class="row">
-            <div class="col-lg-12 text-center">
-        	<h1 style="font-size:350%; padding-bottom:20px; color:#3F3250;"><b>Send us a message - let's initiate a connection.</b></h1>
-            </div>
+            	<div class="col-lg-12 text-center">
+        			<h1 style="font-size:350%; padding-top:20px;padding-bottom:20px; color:white;"><b>Need help? Apply now!</b></h1>
+            	</div>
             </div>
             
-            <div class="row" style="background:url(cream_dust.png);border-style:solid;border-color:#E14658;border-radius:5px;">
+            <div class="row" style="background-color:#F55152;border:0;">
 			<div class="col-lg-12">
-            	<div class="row text-center formTitle">
-                <h1 style="color:#3F3250;">Hey Developers' Foundation Queen's team! I am:</h1>
-                </div>
-				<div class="row">
-                	<div class="col-lg-8  col-md-8 col-md-offset-2">
-                    <div class="row">
-                    
-            		<div class="col-lg-6 col-md-12 col-sm-12 text-center" style="padding-top:10px;padding-bottom:10px;">
-                	<button type="button" class="formbutton btn btn-lg" id="npobutton">An NPO</button>
-               	 	</div>
-                
-               		<div class="col-lg-6 col-md-12 col-sm-12 text-center" style="padding-top:10px;padding-bottom:10px;">
-                	<button type="button" class="formbutton btn btn-lg" id="studentbutton">A Student</button>
-                	</div>
-                    
-                    </div>
-                    </div>
-           		</div>
             
-            	<div class="row">
-                <div class="col-lg-12">
+            	<div class="row text-center formTitle" style="padding-bottom:10px;">
+                	<h2 style="color:white;">Hey Developers' Foundation Queen's team! I am:</h1>
+                </div>
+
+				<div class="row">
                 
-            	<form action="" class="mainWrap npoForm form-email" method="post" data-form-type="nob">
-  				<input placeholder="Name of the NPO you represent" type="text" class="name form-input-name" />
-  				<input placeholder="Email Address" type="email" class="email form-input-email" />
-  				<textarea placeholder="Enter your message" class="mainArea form-input-message"></textarea>
-  				<button class="bigBtn"><i class="fa fa-inbox"></i> Send your Message</button>
-				</form>
+				
+					<div class="col-md-6 col-sm-12 text-center" style="padding-top:50px;padding-bottom:50px;background:url(npobackground.jpg);background-repeat: no-repeat;background-size:cover;background-position:center;">
+                		<button type="button" class="formbutton btn btn-lg" id="npobutton">An NPO</button>
+               		</div>
+               
+                    
                 
-                <form action="" class="mainWrap stuForm form-email" method="post" data-form-type="nob">
-  				<input placeholder="Student name" type="text" class="name form-input-name" />
-  				<input placeholder="Email Address" type="email" class="email form-input-email" />
-  				<textarea placeholder="Enter your message" class="mainArea form-input-message"></textarea>
-  				<button class="bigBtn"><i class="fa fa-inbox"></i> Send your Message</button>
-				</form>
+					<div class="col-md-6 col-sm-12 text-center" style="padding-top:50px;padding-bottom:50px;background:url(stubackground.jpg);background-repeat: no-repeat;background-size:cover;">
+						<button type="button" class="formbutton btn btn-lg" id="studentbutton">A Student</button>
+					</div>
+				
+                
+                </div>
+                
+            	<div class="row formOuter">
+                <div class="col-lg-12 col-md-12">
+                
+                <div class="npoForm" style="padding-top:40px;">
+            		<form action="" class="mainWrap form-email" method="post" data-form-type="nob">
+  					<input placeholder="Name of the NPO you represent" type="text" class="name form-input-name" />
+  					<input placeholder="Email Address" type="email" class="email form-input-email" />
+  					<textarea placeholder="Give us a brief explanation of your NPO, your name, and other contact information if necessary." class="mainArea form-input-message"></textarea>
+  					<button class="bigBtn"><i class="fa fa-inbox"></i><span class="glyphicon glyphicon-envelope"></span>&nbsp;</button>
+					</form>
+                </div>
+                
+                <div class="stuForm" style="padding-top:40px;">
+                	<form action="" class="mainWrap stuForm form-email" method="post" data-form-type="nob">
+  					<input placeholder="Name" type="text" class="name form-input-name" />
+  					<input placeholder="Email Address" type="email" class="email form-input-email" />
+  					<textarea placeholder="Tell us a bit more about yourself and what we can do to help you." class="mainArea form-input-message"></textarea>
+  					<button class="bigBtn"><i class="fa fa-inbox"></i><span class="glyphicon glyphicon-envelope"></span>&nbsp;</button>
+					</form>
+                </div>
+                
             	</div>     
                 </div>
                 
-                <div class="row" style="padding-bottom:40px;">
-            	<div class="col-lg-12 text-center">
-                <p class="moreInfo" style="font-size:150%;color:#3F3250;">You can also visit the <a href="https://developersfoundation.ca" target="_blank">main Developers' Foundation website</a> for more information about Developers' Foundation in general.</p>  
-                </div>
-                </div>  
        		</div>
     		</div>
      
@@ -303,9 +330,27 @@
         
 	</div> <!--Close ContactUS Section-->
     
-    <div class="row" style="font-family:'JosefinSans Regular';padding-bottom:20px; background-color:black;"> <!--Footer-->
+    <div class="row" style="font-family:'JosefinSans Regular';background-color:#16071C;padding-top:10px;padding-bottom:10px;"> 
 		<div class="col-lg-12">
-        	<div class="col-lg-10 col-md-offset-1" style="font-size:150%; padding-top:20px;color:white;">
+        	<div class="col-md-10 col-md-offset-1 text-center" style="font-size:150%;color:white;">
+        		<a href="#Terms&Privacy" style="text-decoration:none;"><div class="link">Terms & Privacy</div></a>
+
+				<div id="Terms&Privacy" class="modalDialog" style="font-family:'JosefinSans Regular';">
+                	<div>
+						<a href="#close" title="Close" class="close">x</a>
+						<h2>Terms & Privacy</h2>
+						<p>Terms of Service</p>
+						<p>Privacy Policy</p>
+					</div>	
+				</div>
+        	</div>
+        </div>
+        
+	</div>
+    
+    <div class="row" style="font-family:'JosefinSans Regular';background-color:black;"> <!--Footer-->
+		<div class="col-lg-12">
+        	<div class="col-md-10 col-md-offset-1 text-center" style="font-size:150%; padding-top:20px;padding-bottom:20px;color:white;">
         		Copyright © 2016. Developers' Foundation. All rights reserved.
         	</div>
         </div>
@@ -329,14 +374,36 @@
 
 <script>
 	$(document).ready(function(){
+		var scroll_start = $(window).scrollTop();
+   		var startchange = $('.header');
+   		var offset = startchange.offset();
+		if(scroll_start > offset.top) {
+			$('.navbar-fixed-top').css('background-color', 'rgba(0,0,0,1)');
+       	} else {
+          	$('.navbar-fixed-top').css('background-color', 'transparent');
+       	}
+	});
+	
+	$(document).ready(function(){
+
+		var scroll_start = 0;
+   		var startchange = $('.header');
+   		var offset = startchange.offset();
+	
+   		$(document).scroll(function() { 
+      	scroll_start = $(this).scrollTop();
+      	if(scroll_start > offset.top) {
+			$('.navbar-fixed-top').css('background-color', 'rgba(0,0,0,1)');
+       	} else {
+          	$('.navbar-fixed-top').css('background-color', 'transparent');
+       	}
+   		});
 		
-		/*
-		setTimeout(function(){
-    	$('.loader').hide();
-		$('.fullpage').fadeIn(1500);
-		}, 4000);
-		*/
+		$("modalDialog").bind('clickoutside',function(){
+    		$("modalDialog").dialog('close');
+		});
 		
+
 
 		<!-- SCROLL TO -->
 		
@@ -369,9 +436,10 @@
 		
 		$('.npoForm').hide();
 		$('.stuForm').hide();
-	
+		$('.formOuter').hide();
 	
 		$( "#npobutton" ).click(function() {
+			$('.formOuter').fadeIn(500);
 			$('.stuForm').hide();
 			$('.npoForm').fadeIn(1000);
 
@@ -381,6 +449,7 @@
 		});
 	
 		$( "#studentbutton" ).click(function() {
+			$('.formOuter').fadeIn(500);
 			$('.npoForm').hide();
 			$('.stuForm').fadeIn(1000);
 
