@@ -220,6 +220,7 @@ border-radius:15px;
 
 .modalDialog {
 	position: fixed;
+	overflow: scroll;
 	top: 0;
 	right: 0;
 	bottom: 0;
