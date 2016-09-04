@@ -7,8 +7,19 @@
 
 
 @font-face {
-	font-family: 'JosefinSans Regular';
+	font-family: 'Josefin Slab', serif;
 	src: url('JosefinSans-Regular.ttf') format('truetype');
+}
+
+li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
 
 .navbar-brand {
@@ -172,14 +183,13 @@ border-radius:15px;
     -moz-transition: all .3s ease;
     -webkit-transition: all .3s ease;
     border-radius: 0px;
-	font-family: 'JosefinSans Regular';
 }
 
 .panel-heading-landing {
     padding: 20px !important;
     border-top-left-radius: 5px !important;
     border-top-right-radius: 5px !important;
-    border: solid 3px #554971 !important;
+    border: solid 2px #2d374d !important;
     border-bottom: none !important;
 }
 
@@ -200,14 +210,14 @@ border-radius:15px;
 
 .panel-body-landing {
 	
-    border: solid 3px #554971 !important;
+    border: solid 1px #2d374d !important;
     border-top: none !important;
     border-bottom: none !important;
 	font-size:16px;
 }
 
 .panel-footer-landing {
-    border: solid 3px #554971 !important;
+    border: solid 2px #2d374d !important;
     border-bottom-left-radius: 5px !important;
     border-bottom-right-radius: 5px !important;
     border-top: none !important;
