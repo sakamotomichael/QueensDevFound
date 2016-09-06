@@ -87,7 +87,7 @@
     			<div class="col-lg-12">
                 	<div id="large-header">
                     <canvas id="demo-canvas"></canvas>
-                    	<h1 class="main-title animated fadeIn" style="font-family:'Amatica SC', cursive; color:#FFF; font-size: 600%; border: solid 5px #FFF; background: #454d5f; padding: 50px;"><b>Developers' Foundation</b><br />Queen's Chapter</span></h1>
+                    	<h1 class="main-title animated fadeIn" style="font-family:'Amatica SC', cursive; color:#FFF; font-size: 600%; border: double 8px #FFF; background: #454d5f; padding: 50px;"><b>Developers' Foundation</b><br />Queen's Chapter</span></h1>
                 	</div>
             	</div>           
 			</div>
@@ -158,7 +158,7 @@
                             </div>
 
                             <div class="panel-body panel-body-landing">
-                                <p class="intro" style="font-family: 'Poiret One', cursive;">We'll create an elegant site based on the specifications you provide for us, along with our own ideas.</p>
+                                <p class="intro" style="font-family: 'Poiret One', cursive;">We will create an elegant site based on the specifications you provide for us, along with our own ideas.</p>
                             </div>
                             <div class="panel-footer panel-footer-landing"></div>
                         </div>

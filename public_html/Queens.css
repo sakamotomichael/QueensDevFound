@@ -38,15 +38,15 @@ hr {
 }
 
 .nav > li > a:hover{
-    background-color:#16071C;
+    background-color:#3d4b6b;
 }
 
 .nav > li > a:active{
-    background-color:#16071C;
+    background-color:#3d4b6b;
 }
 
 .nav > li > a:focus{
-    background-color:#16071C;
+    background-color:#3d4b6b;
 }
 
 
@@ -172,7 +172,7 @@ border-radius:15px;
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
-	border-radius:5px;
+	  border-radius:5px;
 }
 
 .pricing-table {
