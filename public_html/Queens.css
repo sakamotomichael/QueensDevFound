@@ -49,6 +49,15 @@ hr {
     background-color:#3d4b6b;
 }
 
+.navbar-fixed-top {
+  transition: background-color 1s ease 0s;
+}
+
+.navbar-fixed-top.solid {
+    background-color: #000;
+    transition: background-color 1s ease 0s;
+}
+
 
 .WWDtext{
 	font-size:150%;

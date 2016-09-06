@@ -56,7 +56,7 @@
 <div class="container-fluid fullpage">
 
   <div class="row header" style="height:100vh;background:url(header2.png);background-repeat: no-repeat;background-size:cover;"> <!--Navbar and titleImage row-->
-    	<div class="navbar navbar-fixed-top" style="padding-top:10px;padding-bottom:10px;">
+    	<div class="navbar navbar-fixed-top second" style="padding-top:10px;padding-bottom:10px;display:none;">
             	<div class="container">
                 	<div class="navbar-header">
                     <div class="navbar-brand" style="font-family: 'Amatica SC', cursive;font-size:220%;"><strong>
@@ -401,16 +401,7 @@
 </html>
 
 <script>
-	$(document).ready(function(){
-		var scroll_start = $(window).scrollTop();
-   		var startchange = $('.header');
-   		var offset = startchange.offset();
-		if(scroll_start > offset.top) {
-			$('.navbar-fixed-top').css('background-color', 'rgba(0,0,0,1)');
-       	} else {
-          	$('.navbar-fixed-top').css('background-color', 'transparent');
-       	}
-	});
+
 	
 	$(document).ready(function(){
 
@@ -421,9 +412,9 @@
    		$(document).scroll(function() { 
       	scroll_start = $(this).scrollTop();
       	if(scroll_start > offset.top) {
-			$('.navbar-fixed-top').css('background-color', 'rgba(0,0,0,1)');
+			$('.navbar-fixed-top').addClass('solid');
        	} else {
-          	$('.navbar-fixed-top').css('background-color', 'transparent');
+          	$('.navbar-fixed-top').removeClass('solid');
        	}
    		});
 		
@@ -431,7 +422,10 @@
     		$("modalDialog").dialog('close');
 		});
 		
-
+        <!-- Navbar Fade In -->
+        setTimeout(function () {
+            $('.second').show().addClass('animated fadeIn');}, 1000
+            );
 
 		<!-- SCROLL TO -->
 		
@@ -488,4 +482,5 @@
 		
 	});
 	
+
 </script>
