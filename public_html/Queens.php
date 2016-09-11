@@ -11,7 +11,10 @@
 <link rel="stylesheet" type="text/css" href="Queens.css" />
 <link rel="stylesheet" type="text/css" href="CaptionHoverEffects/component.css" />
 <link rel="stylesheet" type="text/css" href="HeaderEffect/component.css" />
+<link rel="stylesheet" href="animator/animate.css">
+<link rel="stylesheet" href="animator/component.css">
 <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Amatica+SC|Poiret+One" rel="stylesheet">
 
 <link rel="icon" type="image/ico" href="DFFavicon.ico">
 <!--
@@ -52,12 +55,12 @@
 -->
 <div class="container-fluid fullpage">
 
-  <div class="row header" style="height:100vh;background:url(header.jpg);background-repeat: no-repeat;background-size:cover;"> <!--Navbar and titleImage row-->
-    	<div class="navbar navbar-fixed-top" style="padding-top:10px;padding-bottom:10px;">
+  <div class="row header" style="height:100vh;background:url(header2.png);background-repeat: no-repeat;background-size:cover;"> <!--Navbar and titleImage row-->
+    	<div class="navbar navbar-fixed-top second" style="padding-top:10px;padding-bottom:10px;display:none;">
             	<div class="container">
                 	<div class="navbar-header">
-                    <div class="navbar-brand" style="font-family:'JosefinSans Regular';font-size:150%;">
-                    Developer's Foundation
+                    <div class="navbar-brand" style="font-family: 'Amatica SC', cursive;font-size:220%;"><strong>
+                    Developer's Foundation</strong>
                     </div>
                     <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse" style="background-color:#16071C;">
                     <span class="icon-bar"></span>
@@ -67,7 +70,7 @@
                     </div>
                     
                     <div class="collapse navbar-collapse navHeaderCollapse">
-                    <ul class="nav navbar-nav navbar-right" style="font-family:'JosefinSans Regular';font-size:150%;">
+                    <ul class="nav navbar-nav navbar-right" style="font-family: 'Amatica SC', cursive;font-size:200%;">
                    		<li><a href="#" class="navbutton" id="button1" >About</a></li>
                         <li><a href="#" class="navbutton" id="button2">What We Do</a></li>
                         <li><a href="#" class="navbutton" id="button3">Portfolio</a></li>
@@ -80,11 +83,11 @@
 	</div>
     
     	<div class="col-12-lg container-fluid">
-        	<div class="row demo-3">
+        	<div class="row demo-2">
     			<div class="col-lg-12">
-                	<div id="large-header" class="large-header">
+                	<div id="large-header">
                     <canvas id="demo-canvas"></canvas>
-                    <h1 class="main-title"><b>Developers' Foundation</b><br />Queen's Chapter</span></h1>
+                    	<h1 class="main-title animated fadeIn" style="font-family:'Amatica SC', cursive; color:#FFF; font-size: 600%; border: double 8px #FFF; background: #454d5f; padding: 50px;"><b>Developers' Foundation</b><br />Queen's Chapter</span></h1>
                 	</div>
             	</div>           
 			</div>
@@ -93,18 +96,18 @@
 
   
     
-    <div class="row About" style="background-color:#16071C; color:white;padding-top:100px;padding-bottom:100px;"> <!--About section-->
+    <div class="row About" style="background-color:#2d374d; color:white;padding-top:50px;padding-bottom:50px;"> <!--About section-->
 		<div class="col-lg-10 col-md-offset-1">
             <div class="row"> <!--Picture and description row-->
             	<div class="col-lg-6 text-center"> <!--Image column-->
- 					<img src="aboutimg.jpg" style="border:2px solid white; border-radius: 2px; margin-top: 10px; margin-bottom: 10px; height:300px;width:500px;" class="img-responsive center-block">
+ 					<img src="aboutimg.jpg" style="border:2px solid #454d5f; border-radius: 2px; margin-top: 10px; margin-bottom: 10px; height:300px;width:500px;" class="img-responsive center-block">
 				</div> <!--Close Image column-->
             
             	<div class="col-lg-6"> <!-- Description column-->
-            		<div class="col-lg-10" style="font-size:150%;text-align:justify;padding-top:20px;padding-bottom:20px;">
-            			<h2 style="font-family:'JosefinSans Regular'";><b>Every company deserves to be recognized</b></h2>
+            		<div class="col-lg-10" style="text-align:justify;padding-top:20px;padding-bottom:20px;">
+            			<h2 style="font-family: 'Amatica SC', cursive; font-size:300%";><b>Every company deserves to be recognized</b></h2>
             			<br />
-                        <div style="font-family:'JosefinSans Regular';">
+                        <div style="font-family: 'Poiret One', cursive; font-size: 150%">
         				<p> We're a team of students and aspiring web designers which serve as a subteam for Developers' Foundation. 			</p>
 						<p> In charge of operations at Queen's University and the city of Kingston, we primarily seek out NPOs in the city and assist them in establishing an online presence.
 						</p>	
@@ -122,56 +125,56 @@
         <div class="text-center">
         <div class="container">
             <div class="section-title center" style="padding-bottom:50px;">
-                <h2 style="font-size:400%;color:white;font-family:'JosefinSans Regular';"><b>What We Do</b></h2>
+                <h2 style="font-size:500%;color:white;font-family: 'Amatica SC', cursive;"><b>What We Do</b></h2>
                 <div class="line">
-                    <hr>
+                    <hr style="max-width: 1080px; align: center;">
                 </div>
                
             </div>
             <div class="row" style="color:white;">
                 <div class="col-md-4">
-                    <div class="pricing-table">
-                        <div class="panel" style="border:none;">
+                    <div class="pricing-table pricing pricing--sonam">
+                        <div class="panel pricing__item" style="border:none;">
                             <div class="controle-header panel-heading panel-heading-landing">
-                                <h2 class="services-title panel-title panel-title-landing" style="padding-bottom: 30px">
+                                <h2 class="services-title panel-title panel-title-landing" style="font-family:'Amatica SC', cursive;padding-bottom: 30px">
                                     <b>Connect with us</b></h2>
                                 <span style="font-size:5em; color:#F55152;" class="glyphicon glyphicon-link"></span>
                             </div>
 
                             <div class="panel-body panel-body-landing">
-                                <p class="intro">Whether you're an NPO or a student, we can help you establish an online presence for little to no cost.</p>
+                                <p class="intro" style="font-family: 'Poiret One', cursive;">Whether you're an NPO or a student, we can help you establish an online presence for little to no cost.</p>
                             </div>
                             <div class="panel-footer panel-footer-landing"></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="pricing-table">
-                        <div class="panel" style="border: none;">
+                    <div class="pricing-table pricing pricing--sonam">
+                        <div class="panel pricing__item" style="border: none;">
                             <div class="controle-header panel-heading panel-heading-landing">
-                                <h2 class="services-title panel-title panel-title-landing" style="padding-bottom: 30px">
+                                <h2 class="services-title panel-title panel-title-landing" style="font-family:'Amatica SC', cursive;padding-bottom: 30px">
                                     <b>We create your site</b></h2>
                                 <span style="font-size:5em; color:#F55152;" class="glyphicon glyphicon-file"></span>
                             </div>
 
                             <div class="panel-body panel-body-landing">
-                                <p class="intro">We'll create an elegant site based on the specifications you provide for us, along with our own ideas.</p>
+                                <p class="intro" style="font-family: 'Poiret One', cursive;">We will create an elegant site based on the specifications you provide for us, along with our own ideas.</p>
                             </div>
                             <div class="panel-footer panel-footer-landing"></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="pricing-table">
-                        <div class="panel" style="border: none;">
+                    <div class="pricing-table pricing pricing--sonam">
+                        <div class="panel pricing__item" style="border: none;">
                             <div class="controle-header panel-heading panel-heading-landing">
-                                <h2 class="services-title panel-title panel-title-landing" style="padding-bottom: 30px">
+                                <h2 class="services-title panel-title panel-title-landing" style="font-family:'Amatica SC', cursive;padding-bottom: 30px">
                                     <b>Your site will be hosted</b></h2>
                                 <span style="font-size:5em; color:#F55152;" class="glyphicon glyphicon-globe"></span>
                             </div>
 
                             <div class="panel-body panel-body-landing">
-                                <p class="intro">Your site will be managed and hosted by us where you can request any updates as well as editing the site yourself.</p>
+                                <p class="intro" style="font-family: 'Poiret One', cursive;">Your site will be managed & hosted by us where you can request any updates as well as editing the site yourself.</p>
                             </div>
                             <div class="panel-footer panel-footer-landing"></div>
                         </div>
@@ -183,12 +186,15 @@
    	</div><!--Close row-->
     
     
-    <div class="row Portfolio" style="font-family:'JosefinSans Regular';background-color:#16071C;"><!--Portfolio section-->       
+    <div class="row Portfolio" style="font-family:'JosefinSans Regular';background-color:#1a202e;"><!--Portfolio section-->       
         <div class="row"> <!--Portfolio title-->
             <div style="text-align:center; margin-top:60px;">
-            	<h1 style="font-size:400%; font-family:'JosefinSans Regular';color:white;">Portfolio</h1>	
+            	<h1 style="font-size:500%; font-family: 'Amatica SC', cursive;color:white;">Portfolio</h1>	
             </div>
 		</div><!--Close Portfolio title-->
+		<div class="line">
+            <hr style="align: center; max-width: 1080px">
+        </div>
             
             	
                 <ul class="grid cs-style-3">
@@ -263,7 +269,7 @@
         
     </div> <!--Close portfolio section-->
     
-    <div class="row Contact" style="font-family:'JosefinSans Regular'; padding-bottom:40px;background:url(formbackground.jpg);background-repeat: no-repeat;background-size:cover;
+    <div class="row Contact" style="font-family: 'Amatica SC', cursive; padding-bottom:40px;background:url(formbackground.jpg);background-repeat: no-repeat;background-size:cover;
     background-position:center;
     height:100%;
     background-attachment: fixed;"> <!--ContactUS Section-->
@@ -272,7 +278,7 @@
         
         	<div class="row">
             	<div class="col-lg-12 text-center">
-        			<h1 style="font-size:350%; padding-top:20px;padding-bottom:20px; color:white;"><b>Need help? Apply now!</b></h1>
+        			<h1 style="font-size:450%; padding-top:20px;padding-bottom:20px; color:white;"><b>Need help? Apply now!</b></h1>
             	</div>
             </div>
             
@@ -287,13 +293,13 @@
                 
 				
 					<div class="col-md-6 col-sm-12 text-center" style="padding-top:50px;padding-bottom:50px;background:url(npobackground.jpg);background-repeat: no-repeat;background-size:cover;background-position:center;">
-                		<button type="button" class="formbutton btn btn-lg" id="npobutton">An NPO</button>
+                		<button type="button" class="formbutton btn btn-lg" id="npobutton" style="font-size: 300%;">An NPO</button>
                		</div>
                
                     
                 
 					<div class="col-md-6 col-sm-12 text-center" style="padding-top:50px;padding-bottom:50px;background:url(stubackground.jpg);background-repeat: no-repeat;background-size:cover;">
-						<button type="button" class="formbutton btn btn-lg" id="studentbutton">A Student</button>
+						<button type="button" class="formbutton btn btn-lg" id="studentbutton" style="font-size: 300%;">A Student</button>
 					</div>
 				
                 
@@ -302,7 +308,7 @@
             	<div class="row formOuter">
                 <div class="col-lg-12 col-md-12">
                 
-                <div class="npoForm" style="padding-top:40px;">
+                <div class="npoForm" style="padding-top:40px;font-family: 'Poiret One', cursive;">
             		<form action="" class="mainWrap form-email" method="post" data-form-type="nob">
   					<input placeholder="Name of the NPO you represent" type="text" class="name form-input-name" />
   					<input placeholder="Email Address" type="email" class="email form-input-email" />
@@ -311,7 +317,7 @@
 					</form>
                 </div>
                 
-                <div class="stuForm" style="padding-top:40px;">
+                <div class="stuForm" style="padding-top:40px;font-family: 'Poiret One', cursive;">
                 	<form action="" class="mainWrap stuForm form-email" method="post" data-form-type="nob">
   					<input placeholder="Name" type="text" class="name form-input-name" />
   					<input placeholder="Email Address" type="email" class="email form-input-email" />
@@ -330,12 +336,12 @@
         
 	</div> <!--Close ContactUS Section-->
     
-    <div class="row" style="font-family:'JosefinSans Regular';background-color:#16071C;padding-top:10px;padding-bottom:10px;"> 
+    <div class="row" style="font-family:'JosefinSans Regular';background-color:#0d1017;padding-top:10px;padding-bottom:10px;"> 
 		<div class="col-lg-12">
         	<div class="col-md-10 col-md-offset-1 text-center" style="font-size:150%;color:white;">
-        		<a href="#Terms&Privacy" style="text-decoration:none;"><div class="link">Terms & Privacy</div></a>
+        		<a href="#Terms&Privacy" style="text-decoration:none;"><div class="link" style="font-family: 'Poiret One', cursive;">Terms & Privacy</div></a>
 
-				<div id="Terms&Privacy" class="modalDialog" style="font-family:'JosefinSans Regular';">
+				<div id="Terms&Privacy" class="modalDialog" style="font-family: 'Poiret One', cursive;">
                 	<div>
 						<a href="#close" title="Close" class="close">x</a>
 						<h2>Terms & Privacy</h2>
@@ -371,7 +377,7 @@
     
     <div class="row" style="font-family:'JosefinSans Regular';background-color:black;"> <!--Footer-->
 		<div class="col-lg-12">
-        	<div class="col-md-10 col-md-offset-1 text-center" style="font-size:150%; padding-top:20px;padding-bottom:20px;color:white;">
+        	<div class="col-md-10 col-md-offset-1 text-center" style="font-size:150%; padding-top:20px;padding-bottom:20px;color:white; font-family: 'Poiret One', cursive;">
         		Copyright © 2016. Developers' Foundation. All rights reserved.
         	</div>
         </div>
@@ -389,21 +395,13 @@
 <script src="HeaderEffect/EasePack.min.js"></script>
 <script src="HeaderEffect/rAF.js"></script>
 <script src="HeaderEffect/demo-3.js"></script>
+<script src="HeaderEffect/demo-2.js"></script>
 
 </body>
 </html>
 
 <script>
-	$(document).ready(function(){
-		var scroll_start = $(window).scrollTop();
-   		var startchange = $('.header');
-   		var offset = startchange.offset();
-		if(scroll_start > offset.top) {
-			$('.navbar-fixed-top').css('background-color', 'rgba(0,0,0,1)');
-       	} else {
-          	$('.navbar-fixed-top').css('background-color', 'transparent');
-       	}
-	});
+
 	
 	$(document).ready(function(){
 
@@ -414,9 +412,9 @@
    		$(document).scroll(function() { 
       	scroll_start = $(this).scrollTop();
       	if(scroll_start > offset.top) {
-			$('.navbar-fixed-top').css('background-color', 'rgba(0,0,0,1)');
+			$('.navbar-fixed-top').addClass('solid');
        	} else {
-          	$('.navbar-fixed-top').css('background-color', 'transparent');
+          	$('.navbar-fixed-top').removeClass('solid');
        	}
    		});
 		
@@ -424,7 +422,10 @@
     		$("modalDialog").dialog('close');
 		});
 		
-
+        <!-- Navbar Fade In -->
+        setTimeout(function () {
+            $('.second').show().addClass('animated fadeIn');}, 1000
+            );
 
 		<!-- SCROLL TO -->
 		
@@ -481,4 +482,5 @@
 		
 	});
 	
+
 </script>
