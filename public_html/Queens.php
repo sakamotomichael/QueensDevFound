@@ -82,12 +82,12 @@
                 </div>
 	</div>
     
-    	<div class="col-12-lg container-fluid">
+    	<div class="col-12-lg container">
         	<div class="row demo-2">
     			<div class="col-lg-12">
                 	<div id="large-header">
                     <canvas id="demo-canvas"></canvas>
-                    	<h1 class="main-title animated fadeIn" style="font-family:'Amatica SC', cursive; color:#FFF; font-size: 600%; border: double 8px #FFF; background: #454d5f; padding: 50px;"><b>Developers' Foundation</b><br />Queen's Chapter</span></h1>
+                    	<h1 class="main-title animated fadeIn" style="padding: 20px;"><b>Developers' Foundation</b><br />Queen's Chapter</span></h1>
                 	</div>
             	</div>           
 			</div>
