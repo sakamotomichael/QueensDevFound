@@ -22,6 +22,15 @@ hr {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
 
+.main-title {
+  font-family:'Amatica SC', cursive;
+  color:#FFF;
+  font-size: 600%;
+  border: double 8px #FFF;
+  background: #454d5f;
+  padding: 200px;
+}
+
 .navbar-brand {
     color: white;
 }
