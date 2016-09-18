@@ -18,15 +18,24 @@ $(document).ready(function () {
         var messageField = thisForm.find('.form-input-message');
 
         if (thisForm.attr('data-form-type').indexOf("nob") > -1) {
+
             // Nob form
             var sendFrom = emailField.val(),
+                subject = "Message from client:"
                 sendTo = "leonard.ha@gmail.com",
-                subject = "Message from " + nameField.val(),
                 msg = messageField.val(),
                 msgHTML = "<p>" + messageField.val() + "<p>",
                 fromName = nameField.val(),
-                toName = "Queen's DevFound team";
-
+                toName = "Queen's Chapter - DevFoundation";
+            switch (thisForm.attr('data-form-client')) {
+                case "npo":
+                    subject = "Message from NPO Client: " + nameField.val();
+                    break;
+                case "student":
+                    subject = "Message from Student: " + nameField.val();
+                    break;
+                default:
+            }
             var sendData = JSON.stringify({
                 'sendFrom': sendFrom,
                 'fromName': fromName,
@@ -35,10 +44,12 @@ $(document).ready(function () {
                 'subject': subject,
                 'msg': msg,
                 'msgHTML': msgHTML
+
+
             });
 
             $.ajax({
-                url: 'assets/mail/mailer.php',
+                url: 'MailerFiles/mailer.php',
                 crossDomain: false,
                 data: sendData,
                 method: "POST",
