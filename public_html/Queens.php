@@ -309,7 +309,7 @@
                 <div class="col-lg-12 col-md-12">
                 
                 <div class="npoForm" style="padding-top:40px;font-family: 'Poiret One', cursive;">
-            		<form action="" class="mainWrap form-email" method="post" data-form-type="nob">
+            		<form action="" class="mainWrap form-email" method="post" data-form-type="nob" data-form-client="npo">
   					<input placeholder="Name of the NPO you represent" type="text" class="name form-input-name" />
   					<input placeholder="Email Address" type="email" class="email form-input-email" />
   					<textarea placeholder="Give us a brief explanation of your NPO, your name, and other contact information if necessary." class="mainArea form-input-message"></textarea>
@@ -318,7 +318,7 @@
                 </div>
                 
                 <div class="stuForm" style="padding-top:40px;font-family: 'Poiret One', cursive;">
-                	<form action="" class="mainWrap stuForm form-email" method="post" data-form-type="nob">
+                	<form action="" class="mainWrap stuForm form-email" method="post" data-form-type="nob" data-form-client="student">
   					<input placeholder="Name" type="text" class="name form-input-name" />
   					<input placeholder="Email Address" type="email" class="email form-input-email" />
   					<textarea placeholder="Tell us a bit more about yourself and what we can do to help you." class="mainArea form-input-message"></textarea>
