@@ -108,7 +108,7 @@
             			<h2 style="font-family: 'Amatica SC', cursive; font-size:300%";><b>Every company deserves to be recognized</b></h2>
             			<br />
                         <div style="font-family: 'Poiret One', cursive; font-size: 150%">
-        				<p> We're a team of students and aspiring web designers which serve as a subteam for Developers' Foundation. 			</p>
+        				<p> We're a team of students and aspiring web designers who serve as a subteam for Developers' Foundation. 			</p>
 						<p> In charge of operations at Queen's University and the city of Kingston, we primarily seek out NPOs in the city and assist them in establishing an online presence.
 						</p>	
                         </div>
