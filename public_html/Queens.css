@@ -1,41 +1,50 @@
-@charset "utf-8";
-@import url("JosefinSans_Regular/stylesheet.css");
+@import url('https://fonts.googleapis.com/css?family=Signika');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 /* CSS Document */
 
 /*GENERAL*/
-
-
-@font-face {
-	font-family: 'Josefin Slab', serif;
-	src: url('JosefinSans-Regular.ttf') format('truetype');
-}
 
 li {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+
+.header{
+  background-image:url("headerbackground.jpeg");
+  background-size: cover;
+  /*rgba(228,249,245,0.8);*/
+  box-shadow: inset 0 0 0 1000px rgba(48,227,202,0.55);
+  height:100vh;
 }
 
-.main-title {
-  font-family:'Amatica SC', cursive;
-  color:#FFF;
-  font-size: 600%;
-  border: double 8px #FFF;
-  background: #454d5f;
-  padding: 200px;
+#headertext{
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size:60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /*background-color: rgba(48,227,202,0.9);*/
+    color:white;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:center;
+}​
+
+.aboutsection{
+   margin-top:50px;
+   margin-bottom:50px;
 }
 
-.navbar-brand {
-    color: white;
-}
-.nav.navbar-nav.navbar-right a {
-    color: white;
+#abouttext{
+  font-family: 'Open Sans', sans-serif;
+  font-size:20px;
 }
 
 .navbar-inner {
@@ -47,31 +56,89 @@ hr {
 }
 
 .nav > li > a:hover{
-    background-color:#3d4b6b;
+    background-color:rgba(48,227,202,0.55);
+    color:white;
 }
 
 .nav > li > a:active{
-    background-color:#3d4b6b;
+    background-color:rgba(48,227,202,0.55);
+    color:white;
 }
 
 .nav > li > a:focus{
-    background-color:#3d4b6b;
+    background-color:rgba(48,227,202,0.55);
+    color:white;
 }
 
+.navbar-brand{
+   font-family: 'Signika', sans-serif;
+   font-size:30px;
+   color:#40514E;
+}
+.navbutton{
+  color:#40514E;
+}
 .navbar-fixed-top {
   transition: background-color 1s ease 0s;
 }
 
 .navbar-fixed-top.solid {
-    background-color: #000;
+    background-color: black;
     transition: background-color 1s ease 0s;
 }
 
-
-.WWDtext{
-	font-size:150%;
-	font-family: "JosefinSans Regular";
+.hr{
+  border-color: #30E3CA;
+  border-width: 3px;
+  width:100px;
 }
+
+.WhatWeDo{
+  padding-top:50px;
+  padding-bottom:50px;
+  box-shadow: inset 0 0 0 1000px rgba(228,249,245,0.8);
+  background-image: url("whatwedobackground.jpeg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.applybutton {
+    background-color: #30E3CA; /* Green */
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius:2px;
+}
+
+.Contact{
+  padding-top:50px;
+  padding-bottom:50px;
+  box-shadow: inset 0 0 0 1000px rgba(64,81,78,0.8);
+  background-image: url("formbackground.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 
 
 .fade-background{
@@ -94,67 +161,7 @@ border-radius:15px;
   padding-bottom:50px;
 }
 
-.name,
-.email {
-  width:49%;
-  border:0;
-  background:#fff;
-  padding:20px;
-  font-size:1.2em;
-  font-family:"JosefinSans Regular";
-  box-shadow:4px 4px 0px rgba(0,0,0,.1);
-  color:#111;
-}
-
-::-webkit-input-placeholder {
-  color: #696969;
-}
-
-:-moz-placeholder {
- color: #696969; 
-}
-
-::-moz-placeholder {  
- color: #696969;
-}
-
-:-ms-input-placeholder {  
- color: #696969;
-}
-
-.name {
-  float:left;
-}
-
-.email {
-  float:right;
-}
-
-.mainArea {
-  width:100%;
-  box-shadow:4px 4px 0px rgba(0,0,0,.1);
-  font-size:1.4em;
-  margin-top:20px;
-  padding:20px;
-  font-family:"JosefinSans Regular";
-  color:#111;
-  height:200px;
-  resize:none;
-}
-
-.bigBtn {
-  width:100%;
-  padding:20px;
-  text-align:center;
-  margin-top:20px;
-  font-size:2em;
-  font-family:"JosefinSans Regular";
-  background:white;
-  color:black;
-  cursor:pointer;
-}
-
-/* Landscape mobile & down */
+Landscape mobile & down
 @media (max-width: 30em) {
   .wrap h1 {
     font-size:2.3em;
@@ -179,19 +186,7 @@ border-radius:15px;
   }
 }
 
-.formbutton{
-    background-color:#F55152;
-    border: none;
-    color: white;
-    padding: 15px 70px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
-	  border-radius:5px;
-}
+
 
 .pricing-table {
     max-width: 368px;
@@ -207,7 +202,7 @@ border-radius:15px;
     padding: 20px !important;
     border-top-left-radius: 5px !important;
     border-top-right-radius: 5px !important;
-    border: solid 2px #2d374d !important;
+    border: solid 2px #11999E !important;
     border-bottom: none !important;
 }
 
@@ -228,14 +223,14 @@ border-radius:15px;
 
 .panel-body-landing {
 	
-    border: solid 1px #2d374d !important;
+    border: solid 2px #11999E !important;
     border-top: none !important;
     border-bottom: none !important;
 	font-size:16px;
 }
 
 .panel-footer-landing {
-    border: solid 2px #2d374d !important;
+    border: solid 2px #11999E !important;
     border-bottom-left-radius: 5px !important;
     border-bottom-right-radius: 5px !important;
     border-top: none !important;

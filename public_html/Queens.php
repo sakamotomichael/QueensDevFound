@@ -54,157 +54,138 @@
 </div>
 -->
 <div class="container-fluid fullpage">
+<!--min-height: calc(100vh - 70px);-->
 
-  <div class="row header" style="height:100vh;background:url(header2.png);background-repeat: no-repeat;background-size:cover;"> <!--Navbar and titleImage row-->
+    <div class="row header"> <!--Navbar and titleImage row-->
     	<div class="navbar navbar-fixed-top second" style="padding-top:10px;padding-bottom:10px;display:none;">
-            	<div class="container">
-                	<div class="navbar-header">
-                    <div class="navbar-brand" style="font-family: 'Amatica SC', cursive;font-size:220%;"><strong>
-                    Developer's Foundation</strong>
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="navbar-brand"><strong>
+                        Developer's Foundation</strong>
                     </div>
-                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse" style="background-color:#16071C;">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse" style="background-color:#30E3CA;">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
-                    </div>
+                </div>
                     
-                    <div class="collapse navbar-collapse navHeaderCollapse">
-                    <ul class="nav navbar-nav navbar-right" style="font-family: 'Amatica SC', cursive;font-size:200%;">
-                   		<li><a href="#" class="navbutton" id="button1" >About</a></li>
+                <div class="collapse navbar-collapse navHeaderCollapse">
+                    <ul class="nav navbar-nav navbar-right" style="font-family: 'Signika', sans-serif;font-size:20px;">
+                   	    <li><a href="#" class="navbutton" id="button1" >About</a></li>
                         <li><a href="#" class="navbutton" id="button2">What We Do</a></li>
                         <li><a href="#" class="navbutton" id="button3">Portfolio</a></li>
                         <li><a href="#" class="navbutton" id="button4">Apply</a></li>
-                    </ul>
-                        
-                    
-                    </div>
+                    </ul> 
                 </div>
-	</div>
+            </div>
+	    </div>
     
-    	<div class="col-12-lg container">
-        	<div class="row demo-2">
-    			<div class="col-lg-12">
-                	<div id="large-header">
-                    <canvas id="demo-canvas"></canvas>
-                    	<h1 class="main-title animated fadeIn" style="padding: 20px;"><b>Developers' Foundation</b><br />Queen's Chapter</span></h1>
-                	</div>
-            	</div>           
-			</div>
+    	<div id="headertext">
+            Developers' Foundation<br>
+            Queen's chapter
         </div>
+
 	</div>
 
   
     
-    <div class="row About" style="background-color:#2d374d; color:white;padding-top:50px;padding-bottom:50px;"> <!--About section-->
-		<div class="col-lg-10 col-md-offset-1">
-            <div class="row"> <!--Picture and description row-->
-            	<div class="col-lg-6 text-center"> <!--Image column-->
- 					<img src="aboutimg.jpg" style="border:2px solid #454d5f; border-radius: 2px; margin-top: 10px; margin-bottom: 10px; height:300px;width:500px;" class="img-responsive center-block">
-				</div> <!--Close Image column-->
-            
-            	<div class="col-lg-6"> <!-- Description column-->
-            		<div class="col-lg-10" style="text-align:justify;padding-top:20px;padding-bottom:20px;">
-            			<h2 style="font-family: 'Amatica SC', cursive; font-size:300%";><b>Every company deserves to be recognized</b></h2>
-            			<br />
-                        <div style="font-family: 'Poiret One', cursive; font-size: 150%">
-        				<p> We're a team of students and aspiring web designers which serve as a subteam for Developers' Foundation. 			</p>
-						<p> In charge of operations at Queen's University and the city of Kingston, we primarily seek out NPOs in the city and assist them in establishing an online presence.
-						</p>	
-                        </div>
-					</div>
-            	</div> <!-- Close Description column-->
-            </div>     
-        </div>
-	</div><!--Close about section-->
+    <div class="row About" style="padding-top:75px;padding-bottom:75px;background-color:#11999E;color:white;"> <!--About section-->
     
-    <div class="row WhatWeDo" style="background:url(whatwedobackground.jpg);background-repeat: no-repeat;background-size:cover;background-position:center;height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-	padding-top:60px;padding-bottom:100px;"> 
+		<div class="col-lg-8 col-lg-offset-2" id="abouttext">
+                <div style="font-size:30px;">Our goal:</div>
+                <div class="text-center">
+                <h1 style="font-size:50px;font-family: 'Merriweather', sans-serif !important;">Build something <b>meaningful</b></h1><br>
+                </div>
+                We're a team of students and aspiring web designers which serve as a subteam for Developers' Foundation.<br><br>
+                In charge of operations at Queen's University and the city of Kingston, we primarily seek out NPOs in the city and assist them in establishing an online presence.
+        </div>
+        
+	</div>
+
+
+    <div class="row WhatWeDo"> 
         <div class="text-center">
         <div class="container">
             <div class="section-title center" style="padding-bottom:50px;">
-                <h2 style="font-size:500%;color:white;font-family: 'Amatica SC', cursive;"><b>What We Do</b></h2>
-                <div class="line">
-                    <hr style="max-width: 1080px; align: center;">
-                </div>
+                <h2 style="font-size:50px;color:white;font-family: 'Raleway', sans-serif; color:#40514E;"><b>What We Do</b></h2>
+                <hr class="hr">
                
             </div>
+            
             <div class="row" style="color:white;">
-                <div class="col-md-4">
+                <div class="col-md-4" style="padding-bottom:30px;">
                     <div class="pricing-table pricing pricing--sonam">
                         <div class="panel pricing__item" style="border:none;">
                             <div class="controle-header panel-heading panel-heading-landing">
-                                <h2 class="services-title panel-title panel-title-landing" style="font-family:'Amatica SC', cursive;padding-bottom: 30px">
-                                    <b>Connect with us</b></h2>
-                                <span style="font-size:5em; color:#F55152;" class="glyphicon glyphicon-link"></span>
+                                <h2 class="services-title panel-title panel-title-landing" style="font-family: 'Raleway', sans-serif;padding-bottom: 30px">
+                                    <b>UX Design</b></h2>
+                                <span style="font-size:5em; color:#30E3CA;" class="glyphicon glyphicon-link"></span>
                             </div>
 
                             <div class="panel-body panel-body-landing">
-                                <p class="intro" style="font-family: 'Poiret One', cursive;">Whether you're an NPO or a student, we can help you establish an online presence for little to no cost.</p>
+                                <p class="intro" style="font-family: 'Open Sans', sans-serif;">Description</p>
                             </div>
                             <div class="panel-footer panel-footer-landing"></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" style="padding-bottom:30px;">
                     <div class="pricing-table pricing pricing--sonam">
                         <div class="panel pricing__item" style="border: none;">
                             <div class="controle-header panel-heading panel-heading-landing">
-                                <h2 class="services-title panel-title panel-title-landing" style="font-family:'Amatica SC', cursive;padding-bottom: 30px">
-                                    <b>We create your site</b></h2>
-                                <span style="font-size:5em; color:#F55152;" class="glyphicon glyphicon-file"></span>
+                                <h2 class="services-title panel-title panel-title-landing" style="font-family: 'Raleway', sans-serif;padding-bottom: 30px">
+                                    <b>Web Design</b></h2>
+                                <span style="font-size:5em; color:#30E3CA;" class="glyphicon glyphicon-file"></span>
                             </div>
 
                             <div class="panel-body panel-body-landing">
-                                <p class="intro" style="font-family: 'Poiret One', cursive;">We will create an elegant site based on the specifications you provide for us, along with our own ideas.</p>
+                                <p class="intro" style="font-family: 'Open Sans', sans-serif;">Description</p>
                             </div>
                             <div class="panel-footer panel-footer-landing"></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" style="padding-bottom:30px;">
                     <div class="pricing-table pricing pricing--sonam">
                         <div class="panel pricing__item" style="border: none;">
                             <div class="controle-header panel-heading panel-heading-landing">
-                                <h2 class="services-title panel-title panel-title-landing" style="font-family:'Amatica SC', cursive;padding-bottom: 30px">
-                                    <b>Your site will be hosted</b></h2>
-                                <span style="font-size:5em; color:#F55152;" class="glyphicon glyphicon-globe"></span>
+                                <h2 class="services-title panel-title panel-title-landing" style="font-family: 'Raleway', sans-serif;padding-bottom: 30px">
+                                    <b>Marketing</b></h2>
+                                <span style="font-size:5em; color:#30E3CA;" class="glyphicon glyphicon-globe"></span>
                             </div>
 
                             <div class="panel-body panel-body-landing">
-                                <p class="intro" style="font-family: 'Poiret One', cursive;">Your site will be managed & hosted by us where you can request any updates as well as editing the site yourself.</p>
+                                <p class="intro" style="font-family: 'Open Sans', sans-serif;">Description</p>
                             </div>
                             <div class="panel-footer panel-footer-landing"></div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!--Close here-->
         </div>
     </div>
    	</div><!--Close row-->
     
     
-    <div class="row Portfolio" style="font-family:'JosefinSans Regular';background-color:#1a202e;"><!--Portfolio section-->       
+    <div class="row Portfolio"><!--Portfolio section-->       
         <div class="row"> <!--Portfolio title-->
             <div style="text-align:center; margin-top:60px;">
-            	<h1 style="font-size:500%; font-family: 'Amatica SC', cursive;color:white;">Portfolio</h1>	
+            	<h1 style="font-size:50px; font-family: 'Raleway', sans-serif;color:#40514E;">Portfolio</h1>
             </div>
+            <hr class="hr"> 
 		</div><!--Close Portfolio title-->
-		<div class="line">
-            <hr style="align: center; max-width: 1080px">
-        </div>
-            
             	
                 <ul class="grid cs-style-3">
 					<li>
 						<figure>
 							<img src="blue.jpg" alt="img01">
 							<figcaption>
-								<h3>Site 1</h3>
-								<span>Description</span>
-								<a href="#">Visit</a>
+								<h3>QHTC</h3>
+								<span>Website for Queen's Hospitality and Tourism Club.</span>
+								<a href="#"><b>Visit</b></a>
 							</figcaption>
 						</figure>
 					</li>
@@ -213,9 +194,9 @@
 						<figure>
 							<img src="blue.jpg" alt="img02">
 							<figcaption>
-								<h3>Site 2</h3>
-								<span>Description</span>
-								<a href="#">Visit</a>
+								<h3>QBC</h3>
+								<span>Website for Queen's Badminton Club.</span>
+								<a href="#"><b>Visit</b></a>
 							</figcaption>
 						</figure>
 					</li>
@@ -224,9 +205,9 @@
 						<figure>
 							<img src="blue.jpg" alt="img03">
 							<figcaption>
-								<h3>Site 3</h3>
-								<span>Description</span>
-								<a href="#">Visit</a>
+								<h3>JRQ</h3>
+								<span>Website for Japanese Relations at Queen's.</span>
+								<a href="#"><b>Visit</b></a>
 							</figcaption>
 						</figure>
 					</li>
@@ -269,73 +250,25 @@
         
     </div> <!--Close portfolio section-->
     
-    <div class="row Contact" style="font-family: 'Amatica SC', cursive; padding-bottom:40px;background:url(formbackground.jpg);background-repeat: no-repeat;background-size:cover;
-    background-position:center;
-    height:100%;
-    background-attachment: fixed;"> <!--ContactUS Section-->
+    <div class="row Contact"> <!--ContactUS Section-->
     
-		<div class="col-lg-10 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+		<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
         
         	<div class="row">
             	<div class="col-lg-12 text-center">
-        			<h1 style="font-size:450%; padding-top:20px;padding-bottom:20px; color:white;"><b>Need help? Apply now!</b></h1>
+        			<h1 style="font-size:50px; font-family: 'Raleway', sans-serif; padding-bottom:20px; color:white;">Apply</h1>
             	</div>
+                <div class="col-lg-8 col-lg-offset-2 text-center" style="font-family: 'Open Sans', sans-serif;color:white;font-size:20px;">
+                    Have an idea for your NPO's website or Queen's Club? <br><br>We're always ready to accept more clients.
+                </div>
             </div>
-            
-            <div class="row" style="background-color:#F55152;border:0;">
-			<div class="col-lg-12">
-            
-            	<div class="row text-center formTitle" style="padding-bottom:10px;">
-                	<h2 style="color:white;">Hey Developers' Foundation Queen's team! I am:</h1>
-                </div>
-
-				<div class="row">
-                
-				
-					<div class="col-md-6 col-sm-12 text-center" style="padding-top:50px;padding-bottom:50px;background:url(npobackground.jpg);background-repeat: no-repeat;background-size:cover;background-position:center;">
-                		<button type="button" class="formbutton btn btn-lg" id="npobutton" style="font-size: 300%;">An NPO</button>
-               		</div>
-               
-                    
-                
-					<div class="col-md-6 col-sm-12 text-center" style="padding-top:50px;padding-bottom:50px;background:url(stubackground.jpg);background-repeat: no-repeat;background-size:cover;">
-						<button type="button" class="formbutton btn btn-lg" id="studentbutton" style="font-size: 300%;">A Student</button>
-					</div>
-				
-                
-                </div>
-                
-            	<div class="row formOuter">
-                <div class="col-lg-12 col-md-12">
-                
-                <div class="npoForm" style="padding-top:40px;font-family: 'Poiret One', cursive;">
-            		<form action="" class="mainWrap form-email" method="post" data-form-type="nob" data-form-client="npo">
-  					<input placeholder="Name of the NPO you represent" type="text" class="name form-input-name" />
-  					<input placeholder="Email Address" type="email" class="email form-input-email" />
-  					<textarea placeholder="Give us a brief explanation of your NPO, your name, and other contact information if necessary." class="mainArea form-input-message"></textarea>
-  					<button class="bigBtn"><i class="fa fa-inbox"></i><span class="glyphicon glyphicon-envelope"></span>&nbsp;</button>
-					</form>
-                </div>
-                
-                <div class="stuForm" style="padding-top:40px;font-family: 'Poiret One', cursive;">
-                	<form action="" class="mainWrap stuForm form-email" method="post" data-form-type="nob" data-form-client="student">
-  					<input placeholder="Name" type="text" class="name form-input-name" />
-  					<input placeholder="Email Address" type="email" class="email form-input-email" />
-  					<textarea placeholder="Tell us a bit more about yourself and what we can do to help you." class="mainArea form-input-message"></textarea>
-  					<button class="bigBtn"><i class="fa fa-inbox"></i><span class="glyphicon glyphicon-envelope"></span>&nbsp;</button>
-					</form>
-                </div>
-                
-            	</div>     
-                </div>
-                
-       		</div>
-    		</div>
-     
+            <div class="text-center" style="margin-top:20px;">
+                <a href="contactform.php" target="_blank"><button class="applybutton">Contact Us</button></a>
+            </div>
         </div>
         
 	</div> <!--Close ContactUS Section-->
-    
+    <!--
     <div class="row" style="font-family:'JosefinSans Regular';background-color:#0d1017;padding-top:10px;padding-bottom:10px;"> 
 		<div class="col-lg-12">
         	<div class="col-md-10 col-md-offset-1 text-center" style="font-size:150%;color:white;">
@@ -374,10 +307,10 @@
         </div>
         
 	</div>
-    
-    <div class="row" style="font-family:'JosefinSans Regular';background-color:black;"> <!--Footer-->
+    -->
+    <div class="row" style="font-family:'Open Sans', sans-serif;background-color:black;"> <!--Footer-->
 		<div class="col-lg-12">
-        	<div class="col-md-10 col-md-offset-1 text-center" style="font-size:150%; padding-top:20px;padding-bottom:20px;color:white; font-family: 'Poiret One', cursive;">
+        	<div class="col-md-10 col-md-offset-1 text-center" style="font-size:16px; padding-top:20px;padding-bottom:20px;color:white;">
         		Copyright © 2016. Developers' Foundation. All rights reserved.
         	</div>
         </div>
@@ -408,13 +341,28 @@
 		var scroll_start = 0;
    		var startchange = $('.header');
    		var offset = startchange.offset();
+
+        scroll_start = $(this).scrollTop();
+        if(scroll_start > offset.top) {
+            $('.navbar-fixed-top').addClass('solid');
+            $('.navbutton').css("color","white");
+            $('.navbar-brand').css("color","white");
+        } else {
+            $('.navbar-fixed-top').removeClass('solid');
+            $('.navbutton').css("color","#40514E");
+            $('.navbar-brand').css("color","#40514E");
+        }
 	
    		$(document).scroll(function() { 
       	scroll_start = $(this).scrollTop();
       	if(scroll_start > offset.top) {
 			$('.navbar-fixed-top').addClass('solid');
+            $('.navbutton').css("color","white");
+            $('.navbar-brand').css("color","white");
        	} else {
           	$('.navbar-fixed-top').removeClass('solid');
+            $('.navbutton').css("color","#40514E");
+            $('.navbar-brand').css("color","#40514E");
        	}
    		});
 		
