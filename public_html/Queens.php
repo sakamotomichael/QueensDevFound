@@ -88,7 +88,7 @@
         </div>
 
 	</div>
-    
+    <div class="row About" style="padding-top:75px;padding-bottom:75px;background-color:#11999E;color:white;"> <!--About section-->  
 		<div class="col-lg-8 col-lg-offset-2" id="abouttext">
                 <div style="font-size:30px;">Our goal:</div>
                 <div class="text-center">
