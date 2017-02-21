@@ -91,7 +91,31 @@
 
   
     
+<<<<<<< HEAD
     <div class="row About" style="padding-top:75px;padding-bottom:75px;background-color:#11999E;color:white;"> <!--About section-->
+=======
+    <div class="row About" style="background-color:#2d374d; color:white;padding-top:50px;padding-bottom:50px;"> <!--About section-->
+		<div class="col-lg-10 col-md-offset-1">
+            <div class="row"> <!--Picture and description row-->
+            	<div class="col-lg-6 text-center"> <!--Image column-->
+ 					<img src="aboutimg.jpg" style="border:2px solid #454d5f; border-radius: 2px; margin-top: 10px; margin-bottom: 10px; height:300px;width:500px;" class="img-responsive center-block">
+				</div> <!--Close Image column-->
+            
+            	<div class="col-lg-6"> <!-- Description column-->
+            		<div class="col-lg-10" style="text-align:justify;padding-top:20px;padding-bottom:20px;">
+            			<h2 style="font-family: 'Amatica SC', cursive; font-size:300%";><b>Every company deserves to be recognized</b></h2>
+            			<br />
+                        <div style="font-family: 'Poiret One', cursive; font-size: 150%">
+        				<p> We're a team of students and aspiring web designers who serve as a subteam for Developers' Foundation. 			</p>
+						<p> In charge of operations at Queen's University and the city of Kingston, we primarily seek out NPOs in the city and assist them in establishing an online presence.
+						</p>	
+                        </div>
+					</div>
+            	</div> <!-- Close Description column-->
+            </div>     
+        </div>
+	</div><!--Close about section-->
+>>>>>>> 05993f733edb3ca5ceda959a0a99f45f7ae1eb60
     
 		<div class="col-lg-8 col-lg-offset-2" id="abouttext">
                 <div style="font-size:30px;">Our goal:</div>
