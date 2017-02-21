@@ -61,7 +61,7 @@
             <div class="container">
                 <div class="navbar-header">
                     <div class="navbar-brand"><strong>
-                        Developer's Foundation</strong>
+                        Developers' Foundation</strong>
                     </div>
 
                     <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse" style="background-color:#30E3CA;">
